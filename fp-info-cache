@@ -1,4 +1,4 @@
-24502505723625106
+24495644532790591
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -68418,26 +68418,12 @@ Through hole pin header THT 2x10 2.54mm double row
 20
 20
 Omiconnecteur
-PinHeader_2x25_P2.54mm_V_omi_1
+PinHeader_2x25_P2.54mm_V_omi
 Through hole straight pin header, 2x10, 2.54mm pitch, double rows
 Through hole pin header THT 2x10 2.54mm double row
 0
 50
 50
-Omiconnecteur
-XOM_39532085
-39-53-2085-1
-Connector
-0
-8
-8
-Omiconnecteur
-XOM_75869105LF
-
-
-0
-26
-26
 Omiconnecteur
 XOM_09190209643
 09190209643-1
@@ -68445,13 +68431,6 @@ Connector
 0
 20
 20
-Omiconnecteur
-clous_pad
-
-
-0
-1
-1
 Omiconnecteur
 pad
 
@@ -68461,7 +68440,7 @@ pad
 1
 Omiconnecteur
 sub_D_25
-09653226801
+5443991-3
 Connector
 0
 27
@@ -68510,8 +68489,8 @@ Pt_cms_bot_1.0mm
 1
 Omidivers
 Pt_trad_1.0mm
-
-
+Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
+audio belton reverb
 0
 1
 1
@@ -68546,13 +68525,6 @@ capacitor handsolder
 Omipassif
 Condo_1_2x0_5
 Capacitor SMD THT
-capacitor handsolder
-0
-4
-2
-Omipassif
-Condo_1_2x0_5 - Copie
-Capacitor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator
 capacitor handsolder
 0
 4

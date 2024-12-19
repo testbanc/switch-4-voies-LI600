@@ -307,16 +307,16 @@
 					)
 				)
 			)
-			(property "Value" "Conn_02x25_Odd_Even"
-				(at 0 -5.588 0)
+			(property "Value" "Conn_02x25_Odd_Even_omi"
+				(at 1.27 -7.62 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Footprint" "Omiconnecteur:PinHeader_2x25_P2.54mm_V_omi"
-				(at 1.27 -19.05 0)
+			(property "Footprint" "Omiconnecteur:PinHeader_2x32_P2.54mm_V_omi"
+				(at 1.27 -12.7 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -334,7 +334,7 @@
 				)
 			)
 			(property "Description" "Generic connector, double row, 02x10, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
-				(at 7.874 -25.4 0)
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -343,7 +343,7 @@
 				)
 			)
 			(property "Documentation" "https://cdn.amphenol-cs.com/media/wysiwyg/files/documentation/datasheet/boardwiretoboard/bwb_bergstik.pdf"
-				(at -1.27 -19.05 0)
+				(at -1.27 -24.13 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -352,7 +352,7 @@
 				)
 			)
 			(property "Fabriquant" "Amphenol"
-				(at 2.54 -19.05 0)
+				(at 0 -22.86 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -361,7 +361,7 @@
 				)
 			)
 			(property "Fabreference" "77313-118-72LF"
-				(at 1.27 -19.05 0)
+				(at 1.27 -16.51 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -370,7 +370,7 @@
 				)
 			)
 			(property "Omicron" "252175"
-				(at 3.048 -22.098 0)
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -388,7 +388,7 @@
 				)
 			)
 			(property "Distributeur2" "M:649-77313-118-72LF"
-				(at 1.27 -19.05 0)
+				(at 1.27 -21.59 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1895,6 +1895,9 @@
 			)
 		)
 		(symbol "Omiconnecteur:sub_D_25"
+			(pin_names
+				(offset 0.762)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1904,7 +1907,7 @@
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left top)
+					(justify left)
 				)
 			)
 			(property "Value" "sub_D_25"
@@ -1913,122 +1916,112 @@
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left top)
+					(justify left)
 				)
 			)
-			(property "Footprint" "Omiconnecteur:sub_D_25"
-				(at 41.91 -89.84 0)
+			(property "Footprint" "09653226801"
+				(at 41.91 7.62 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left top)
+					(justify left)
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://docs.rs-online.com/61e0/0900766b815846f2.pdf"
-				(at 41.91 -189.84 0)
+			(property "Datasheet" "https://b2b.harting.com/files/download/PRD/PDF_DS/PDF_DS_09653227801_EN.pdf"
+				(at 41.91 5.08 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left top)
+					(justify left)
 					(hide yes)
 				)
 			)
-			(property "Description" "25way rightangle ground socket connector"
-				(at 18.288 -23.876 0)
+			(property "Description" "D-Sub 25pin male angled 2.54mm pitch, stamped, w/o board locks, M3, PL3"
+				(at 41.91 2.54 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 					(hide yes)
 				)
 			)
-			(property "Height" "12.93"
-				(at 41.91 -389.84 0)
+			(property "Height" "12.5"
+				(at 41.91 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left top)
+					(justify left)
 					(hide yes)
 				)
 			)
-			(property "Manufacturer_Name" "RS Pro"
-				(at 41.91 -489.84 0)
+			(property "Manufacturer_Name" "HARTING"
+				(at 41.91 -2.54 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left top)
+					(justify left)
 					(hide yes)
 				)
 			)
-			(property "Manufacturer_Part_Number" "5443991"
-				(at 41.91 -589.84 0)
+			(property "Manufacturer_Part_Number" "09653227801"
+				(at 41.91 -5.08 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left top)
+					(justify left)
 					(hide yes)
 				)
 			)
-			(property "Mouser Part Number" ""
-				(at 41.91 -689.84 0)
+			(property "Mouser Part Number" "617-09653227801"
+				(at 41.91 -7.62 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left top)
+					(justify left)
 					(hide yes)
 				)
 			)
-			(property "Mouser Price/Stock" ""
-				(at 41.91 -789.84 0)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/HARTING/09653227801?qs=Z2e%252BHPEhmSYpOM7BaVuC5A%3D%3D"
+				(at 41.91 -10.16 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left top)
+					(justify left)
 					(hide yes)
 				)
 			)
-			(property "Arrow Part Number" ""
-				(at 41.91 -889.84 0)
+			(property "Arrow Part Number" "09653227801"
+				(at 41.91 -12.7 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left top)
+					(justify left)
 					(hide yes)
 				)
 			)
-			(property "Arrow Price/Stock" ""
-				(at 41.91 -989.84 0)
+			(property "Arrow Price/Stock" "https://www.arrow.com/en/products/09653227801/harting?region=nac"
+				(at 41.91 -15.24 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left top)
+					(justify left)
 					(hide yes)
 				)
 			)
-			(symbol "sub_D_25_1_1"
-				(rectangle
-					(start 5.08 7.62)
-					(end 40.64 -7.62)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
+			(symbol "sub_D_25_0_0"
 				(pin passive line
-					(at 7.62 -12.7 90)
+					(at 7.62 12.7 270)
 					(length 5.08)
 					(name "1"
 						(effects
@@ -2046,7 +2039,7 @@
 					)
 				)
 				(pin passive line
-					(at 30.48 -12.7 90)
+					(at 30.48 12.7 270)
 					(length 5.08)
 					(name "10"
 						(effects
@@ -2064,7 +2057,7 @@
 					)
 				)
 				(pin passive line
-					(at 33.02 -12.7 90)
+					(at 33.02 12.7 270)
 					(length 5.08)
 					(name "11"
 						(effects
@@ -2082,7 +2075,7 @@
 					)
 				)
 				(pin passive line
-					(at 35.56 -12.7 90)
+					(at 35.56 12.7 270)
 					(length 5.08)
 					(name "12"
 						(effects
@@ -2100,7 +2093,7 @@
 					)
 				)
 				(pin passive line
-					(at 38.1 -12.7 90)
+					(at 38.1 12.7 270)
 					(length 5.08)
 					(name "13"
 						(effects
@@ -2118,7 +2111,7 @@
 					)
 				)
 				(pin passive line
-					(at 7.62 12.7 270)
+					(at 7.62 -12.7 90)
 					(length 5.08)
 					(name "14"
 						(effects
@@ -2136,7 +2129,7 @@
 					)
 				)
 				(pin passive line
-					(at 10.16 12.7 270)
+					(at 10.16 -12.7 90)
 					(length 5.08)
 					(name "15"
 						(effects
@@ -2154,7 +2147,7 @@
 					)
 				)
 				(pin passive line
-					(at 12.7 12.7 270)
+					(at 12.7 -12.7 90)
 					(length 5.08)
 					(name "16"
 						(effects
@@ -2172,7 +2165,7 @@
 					)
 				)
 				(pin passive line
-					(at 15.24 12.7 270)
+					(at 15.24 -12.7 90)
 					(length 5.08)
 					(name "17"
 						(effects
@@ -2190,7 +2183,7 @@
 					)
 				)
 				(pin passive line
-					(at 17.78 12.7 270)
+					(at 17.78 -12.7 90)
 					(length 5.08)
 					(name "18"
 						(effects
@@ -2208,7 +2201,7 @@
 					)
 				)
 				(pin passive line
-					(at 20.32 12.7 270)
+					(at 20.32 -12.7 90)
 					(length 5.08)
 					(name "19"
 						(effects
@@ -2226,7 +2219,7 @@
 					)
 				)
 				(pin passive line
-					(at 10.16 -12.7 90)
+					(at 10.16 12.7 270)
 					(length 5.08)
 					(name "2"
 						(effects
@@ -2244,7 +2237,7 @@
 					)
 				)
 				(pin passive line
-					(at 22.86 12.7 270)
+					(at 22.86 -12.7 90)
 					(length 5.08)
 					(name "20"
 						(effects
@@ -2262,7 +2255,7 @@
 					)
 				)
 				(pin passive line
-					(at 25.4 12.7 270)
+					(at 25.4 -12.7 90)
 					(length 5.08)
 					(name "21"
 						(effects
@@ -2280,7 +2273,7 @@
 					)
 				)
 				(pin passive line
-					(at 27.94 12.7 270)
+					(at 27.94 -12.7 90)
 					(length 5.08)
 					(name "22"
 						(effects
@@ -2298,7 +2291,7 @@
 					)
 				)
 				(pin passive line
-					(at 30.48 12.7 270)
+					(at 30.48 -12.7 90)
 					(length 5.08)
 					(name "23"
 						(effects
@@ -2316,7 +2309,7 @@
 					)
 				)
 				(pin passive line
-					(at 33.02 12.7 270)
+					(at 33.02 -12.7 90)
 					(length 5.08)
 					(name "24"
 						(effects
@@ -2334,7 +2327,7 @@
 					)
 				)
 				(pin passive line
-					(at 35.56 12.7 270)
+					(at 35.56 -12.7 90)
 					(length 5.08)
 					(name "25"
 						(effects
@@ -2352,43 +2345,7 @@
 					)
 				)
 				(pin passive line
-					(at 0 0 0)
-					(length 5.08)
-					(name "26"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "26"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 45.72 0 180)
-					(length 5.08)
-					(name "27"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "27"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 12.7 -12.7 90)
+					(at 12.7 12.7 270)
 					(length 5.08)
 					(name "3"
 						(effects
@@ -2406,7 +2363,7 @@
 					)
 				)
 				(pin passive line
-					(at 15.24 -12.7 90)
+					(at 15.24 12.7 270)
 					(length 5.08)
 					(name "4"
 						(effects
@@ -2424,7 +2381,7 @@
 					)
 				)
 				(pin passive line
-					(at 17.78 -12.7 90)
+					(at 17.78 12.7 270)
 					(length 5.08)
 					(name "5"
 						(effects
@@ -2442,7 +2399,7 @@
 					)
 				)
 				(pin passive line
-					(at 20.32 -12.7 90)
+					(at 20.32 12.7 270)
 					(length 5.08)
 					(name "6"
 						(effects
@@ -2460,7 +2417,7 @@
 					)
 				)
 				(pin passive line
-					(at 22.86 -12.7 90)
+					(at 22.86 12.7 270)
 					(length 5.08)
 					(name "7"
 						(effects
@@ -2478,7 +2435,7 @@
 					)
 				)
 				(pin passive line
-					(at 25.4 -12.7 90)
+					(at 25.4 12.7 270)
 					(length 5.08)
 					(name "8"
 						(effects
@@ -2496,7 +2453,7 @@
 					)
 				)
 				(pin passive line
-					(at 27.94 -12.7 90)
+					(at 27.94 12.7 270)
 					(length 5.08)
 					(name "9"
 						(effects
@@ -2511,6 +2468,56 @@
 								(size 1.27 1.27)
 							)
 						)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "MH1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "MH1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 45.72 0 180)
+					(length 5.08)
+					(name "MH2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "MH2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "sub_D_25_0_1"
+				(polyline
+					(pts
+						(xy 5.08 7.62) (xy 40.64 7.62) (xy 40.64 -7.62) (xy 5.08 -7.62) (xy 5.08 7.62)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
 					)
 				)
 			)
@@ -2530,7 +2537,7 @@
 					(justify left)
 				)
 			)
-			(property "Value" "PT_cms_1.0mm"
+			(property "Value" "PT_trad_1.0mm"
 				(at -5.08 -2.54 0)
 				(effects
 					(font
@@ -2541,7 +2548,7 @@
 				)
 			)
 			(property "Footprint" "Omidivers:Pt_trad_1.0mm"
-				(at 1.524 -2.286 0)
+				(at 1.27 -5.08 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2672,3917 +2679,2476 @@
 		)
 	)
 	(junction
-		(at 99.06 107.95)
+		(at 96.52 113.03)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "063f66e5-7236-4542-9b16-6130b7d052a5")
+		(uuid "02f48b06-cb64-4f47-96d6-ed56bd7f05d7")
 	)
 	(junction
-		(at 57.15 69.85)
+		(at 76.2 139.7)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "0f50cdf3-2a45-4096-b343-98f4833fc05a")
+		(uuid "07743b4d-70d8-489a-ab0d-a61b18866b5a")
 	)
 	(junction
-		(at 97.79 102.87)
+		(at 97.79 118.11)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "174a9a93-eb6f-4876-b15c-8b02334195df")
+		(uuid "2583c8fc-1884-40bf-ac13-a990d8a3cd3d")
 	)
 	(junction
-		(at 210.82 86.36)
+		(at 52.07 69.85)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "1a5a2de6-dcf6-4b51-8d39-686e32aa550f")
+		(uuid "26a85b07-3085-4eaa-8bf7-b90a31274fc8")
 	)
 	(junction
-		(at 148.59 92.71)
+		(at 165.1 137.16)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "1d2c186b-6f38-48de-aaf8-88a555ce75ff")
+		(uuid "3b2f252a-b7e5-4579-ad1f-9716efe3250c")
 	)
 	(junction
-		(at 62.23 80.01)
+		(at 49.53 64.77)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "1e46f164-a68b-43f8-b05c-e3c1d9ac797a")
+		(uuid "421511c2-a505-4425-82ce-f53c66ac2f63")
 	)
 	(junction
-		(at 43.18 96.52)
+		(at 93.98 82.55)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "3d73145c-d6e8-4447-9d89-c03d0d219d2b")
+		(uuid "55a1c623-31c2-44d7-9e99-c3bd5b6439b9")
 	)
 	(junction
-		(at 63.5 144.78)
+		(at 54.61 74.93)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "40d5067e-9311-4534-9708-7f89d1805af7")
+		(uuid "64ce53ff-bea5-4d96-8512-af700852cb7f")
 	)
 	(junction
-		(at 106.68 87.63)
+		(at 99.06 87.63)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "414a1796-c43f-46c6-a481-36f7de47fcc2")
+		(uuid "658a206f-34d8-476d-9547-8eab2ae8b75e")
 	)
 	(junction
-		(at 91.44 72.39)
+		(at 147.32 92.71)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "4608de49-034e-4701-a13f-b2ec971bda8a")
+		(uuid "663180ce-e397-4029-9617-c6d01e29dbf6")
 	)
 	(junction
-		(at 78.74 134.62)
+		(at 80.01 137.16)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "4cc9f05d-c903-4176-ab5a-176790f5864b")
+		(uuid "6fdd16a3-2227-46d1-a4a3-5a2f7ba0ddde")
 	)
 	(junction
-		(at 163.83 134.62)
+		(at 99.06 123.19)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "5f7da4ec-4682-4c51-a604-ff7442a774c8")
+		(uuid "70d3ab4e-fba8-4d90-8b72-dbe09f2552f5")
 	)
 	(junction
-		(at 81.28 62.23)
+		(at 144.78 105.41)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "604da351-0d8e-4876-881b-2f728069e2a7")
+		(uuid "74253351-ccbe-4986-92b4-2b757a3307fb")
 	)
 	(junction
-		(at 167.64 132.08)
+		(at 83.7359 72.39)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "60633a1b-bb02-4551-9ee1-6c10dddc13ec")
+		(uuid "81d525ca-024b-4322-9d2b-cd5e3585c146")
 	)
 	(junction
-		(at 111.76 92.71)
+		(at 40.64 101.6)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "68972dfe-7689-4e7e-8220-a1d01b1e7730")
+		(uuid "823c47ed-d1b4-4ef3-8428-9c8779f67a83")
 	)
 	(junction
-		(at 71.12 139.7)
+		(at 92.71 102.87)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "6ac5998e-cfda-4c28-a0de-ff1c96c87a89")
+		(uuid "9394408a-ba1a-4728-8f25-fc241f9cee1f")
 	)
 	(junction
-		(at 63.5 83.82)
+		(at 64.77 147.32)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "79bc1e48-f8d4-4a8b-b129-ce513a2e74ca")
+		(uuid "99127c79-3367-4fff-9f17-48cffb3c805d")
 	)
 	(junction
-		(at 59.69 74.93)
+		(at 146.05 97.79)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "94752f5f-3d17-4e46-aba8-8c654653c480")
+		(uuid "a1a55d0c-3385-4b85-9c80-0f3d0795b7a2")
 	)
 	(junction
-		(at 95.25 97.79)
+		(at 95.25 107.95)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "96c6d5fa-e0b4-49e9-8cd3-65af4dfe4453")
+		(uuid "a26cedab-55d6-4c0e-8287-86cf4badd0b4")
 	)
 	(junction
-		(at 52.07 59.69)
+		(at 161.29 139.7)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "9fe98603-9477-4146-809f-3bb8216f72d5")
+		(uuid "ac598fb3-6e6e-4672-90de-e30e98b20a36")
 	)
 	(junction
-		(at 96.52 77.47)
+		(at 104.14 92.71)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "a3be1daa-3c1f-4858-bbe4-37839ec33f2f")
+		(uuid "b211d34d-8b50-4c1c-9b72-909d1eee912e")
 	)
 	(junction
-		(at 100.33 113.03)
+		(at 109.22 97.79)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "a4ec0815-025a-4f45-a5ee-dd7f1170467f")
+		(uuid "b6e9388f-a19e-4a9b-ab50-fa159697d622")
 	)
 	(junction
-		(at 101.6 118.11)
+		(at 59.69 85.09)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "a5510bfa-6af4-4112-8446-691d361af592")
+		(uuid "b71f20fe-10e3-4705-bbd3-a8836492fe2d")
 	)
 	(junction
-		(at 63.5 85.09)
+		(at 78.74 67.31)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "bebdf096-21fb-4e21-b9f8-dd43144d62a4")
+		(uuid "bb59ebeb-add6-4f25-879f-02fb3f2902ad")
 	)
 	(junction
-		(at 149.86 87.63)
+		(at 68.58 144.78)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "bf180c2c-f225-40f4-9083-4f00166414b7")
+		(uuid "c26f721f-be15-4e09-a877-f8858a7a88dd")
 	)
 	(junction
-		(at 44.45 87.63)
+		(at 88.9 77.47)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "c7939f81-d4b9-4f1e-91ca-5138b4dca418")
+		(uuid "d5572563-2edf-4c6d-bded-5445f44e0fc2")
 	)
 	(junction
-		(at 54.61 64.77)
+		(at 41.91 92.71)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "c988dfc0-51da-4da3-9037-dbf0d05d1675")
+		(uuid "d9f31dff-45ce-4e0a-9a7a-0eb92ffcdfed")
 	)
 	(junction
-		(at 86.2759 67.31)
+		(at 72.39 142.24)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "ead2f3c5-fffd-4793-a793-2a58c485268e")
+		(uuid "e16bca30-3b9e-4b36-abe8-7588d41c52df")
 	)
 	(junction
-		(at 101.6 82.55)
+		(at 57.15 80.01)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "f44a1719-56f4-4ecb-86e0-6cc0625bb236")
+		(uuid "f8d3b132-2ea7-46f6-b161-3fc2c1d67257")
 	)
 	(junction
-		(at 82.55 132.08)
+		(at 60.96 149.86)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "f5bbad86-64e1-4d74-87e9-e1a846747174")
+		(uuid "fcd7f66e-a29f-4286-87d8-a3b0be90f8cd")
 	)
-	(junction
-		(at 67.31 142.24)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f78bf06e-a7d3-4930-9990-b386999813c6")
-	)
-	(junction
-		(at 147.32 100.33)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f8eaed51-70fc-4622-a602-dc6171952f0b")
-	)
-	(junction
-		(at 74.93 137.16)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "fbf0e334-a018-446e-bf27-6883c916c3c2")
-	)
-	(wire
-		(pts
-			(xy 223.52 62.23) (xy 223.52 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "002ae21c-b547-4781-8123-61b8f6cd15d1")
-	)
-	(wire
-		(pts
-			(xy 54.61 64.77) (xy 133.35 64.77)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "006a6e49-b5f6-4c0f-a007-cb222eb12e75")
-	)
-	(wire
-		(pts
-			(xy 199.39 86.36) (xy 210.82 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "02596c7c-70d7-4fb0-b974-e8089de89d80")
-	)
-	(wire
-		(pts
-			(xy 177.8 69.85) (xy 146.05 69.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "03754be5-85d5-4801-ab9e-1c328edf68c0")
-	)
 	(wire
 		(pts
-			(xy 74.93 137.16) (xy 111.76 137.16)
+			(xy 62.23 90.17) (xy 62.23 88.9)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "06121153-c49d-4f8c-9b21-afe40fdcd68a")
+		(uuid "01b8268d-d4d9-4305-8e3e-67cfd4506d7e")
 	)
 	(wire
 		(pts
-			(xy 40.64 132.08) (xy 82.55 132.08)
+			(xy 161.29 139.7) (xy 158.75 139.7)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "06465988-9801-4bc8-a933-52c92ae17ab6")
+		(uuid "01c00890-e2f9-4112-ae7b-02b85f483cd3")
 	)
 	(wire
 		(pts
-			(xy 82.55 105.41) (xy 76.2 105.41)
+			(xy 130.81 67.31) (xy 78.74 67.31)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "07008495-7186-44e2-83b3-1a387fdf7acd")
+		(uuid "0229bd23-eed9-4e52-b756-480d5877187f")
 	)
 	(wire
 		(pts
-			(xy 146.05 115.57) (xy 182.88 115.57)
+			(xy 175.26 74.93) (xy 143.51 74.93)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "07020afb-fcde-4e59-bfcc-d31f21873ed4")
+		(uuid "03483cfe-4340-48a4-805c-e188c8f77baa")
 	)
 	(wire
 		(pts
-			(xy 179.07 91.44) (xy 179.07 100.33)
+			(xy 62.23 90.17) (xy 130.81 90.17)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "0895a87a-868f-4576-ad85-459b9e5e15d2")
+		(uuid "0419a439-4bf9-4158-bfdc-e897b332f82f")
 	)
 	(wire
 		(pts
-			(xy 146.05 67.31) (xy 149.86 67.31)
+			(xy 48.26 100.33) (xy 46.99 100.33)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "08cb577e-bf55-42a3-9fd5-1f46212acdef")
+		(uuid "0648fa77-811e-4583-8e19-08baa8080a59")
 	)
 	(wire
 		(pts
-			(xy 101.6 82.55) (xy 81.28 82.55)
+			(xy 73.66 105.41) (xy 77.47 105.41)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "0b308332-9e4d-40bc-9f16-c65c4bac964f")
+		(uuid "079809d6-aa1d-4189-8b81-2d21a3e1b0c6")
 	)
 	(wire
 		(pts
-			(xy 93.98 110.49) (xy 76.2 110.49)
+			(xy 52.07 69.85) (xy 130.81 69.85)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "0c697b52-77c3-40a1-9c8c-f7c7ecf90458")
+		(uuid "0980fe37-26a7-4b58-a4d9-28203157d1b1")
 	)
 	(wire
 		(pts
-			(xy 226.06 123.19) (xy 151.13 123.19)
+			(xy 161.29 139.7) (xy 161.29 151.13)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "0d416d7e-42c7-44cf-87dd-f77e8ed3bcd9")
+		(uuid "0a37d410-f2cf-474d-9bfa-e5db912d8611")
 	)
 	(wire
 		(pts
-			(xy 97.79 118.11) (xy 76.2 118.11)
+			(xy 83.7359 72.39) (xy 130.81 72.39)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "0e47d2ba-40cb-4a62-8681-34672fb50478")
+		(uuid "0a7bfa7b-5c7d-47d4-9a7f-d1f8048bf802")
 	)
 	(wire
 		(pts
-			(xy 111.76 110.49) (xy 111.76 137.16)
+			(xy 223.52 62.23) (xy 223.52 78.74)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "0ebe776e-fd01-4fc2-9e60-527927a73680")
+		(uuid "0b577256-108d-46d2-804c-fadc6217094a")
 	)
 	(wire
 		(pts
-			(xy 154.94 77.47) (xy 146.05 77.47)
+			(xy 25.4 149.86) (xy 25.4 115.57)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "0ec93950-a5ae-4d40-9a6c-0222c6937955")
+		(uuid "0be241cf-befe-4ad7-b8af-77ed35e0647a")
 	)
 	(wire
 		(pts
-			(xy 148.59 143.51) (xy 177.8 143.51)
+			(xy 220.98 67.31) (xy 220.98 76.2)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "0f11cbb2-7edf-42c7-bbb0-fd516ed60a8d")
+		(uuid "0c180a01-e04c-4538-8686-6dc2a65e3b92")
 	)
 	(wire
 		(pts
-			(xy 236.22 88.9) (xy 223.52 88.9)
+			(xy 179.07 101.6) (xy 179.07 115.57)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "0f7ac78a-2c22-4f1c-816e-04035b42d460")
+		(uuid "0c252bf8-6c96-4893-a3b7-e74b4d4c2ea6")
 	)
 	(wire
 		(pts
-			(xy 198.12 76.2) (xy 177.8 76.2)
+			(xy 109.22 115.57) (xy 109.22 142.24)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "0fab0fbe-d288-4863-80ab-77715c11a475")
+		(uuid "0d8528e9-f499-4f4f-bfad-09ee48efc9cf")
 	)
 	(wire
 		(pts
-			(xy 156.21 129.54) (xy 231.14 129.54)
+			(xy 176.53 78.74) (xy 176.53 69.85)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "111a8041-aba8-4517-a0de-1993a17df0ac")
+		(uuid "0e60f34d-c7fa-4b38-b1b0-dd4d42798dcf")
 	)
 	(wire
 		(pts
-			(xy 57.15 69.85) (xy 133.35 69.85)
+			(xy 195.58 96.52) (xy 176.53 96.52)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "111eb14a-9a3d-4dea-b32e-74d9b1de35bf")
+		(uuid "0eea4590-4a98-44cb-9d3d-9cb87fbc5db1")
 	)
 	(wire
 		(pts
-			(xy 35.56 137.16) (xy 74.93 137.16)
+			(xy 104.14 92.71) (xy 130.81 92.71)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "120734a6-6196-499e-9491-d8f79734b100")
+		(uuid "10098090-a569-4620-9b04-f442f067fc37")
 	)
 	(wire
 		(pts
-			(xy 67.31 142.24) (xy 30.48 142.24)
+			(xy 228.6 99.06) (xy 228.6 134.62)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "133318cb-6737-4cd0-a37d-e844530b4198")
+		(uuid "10a4c5de-370b-4e6e-9b70-085071a365a8")
 	)
 	(wire
 		(pts
-			(xy 198.12 96.52) (xy 181.61 96.52)
+			(xy 93.98 113.03) (xy 93.98 120.65)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "13389eeb-61ec-45e9-b801-9c0fd45964a4")
+		(uuid "11b72e72-104c-426f-b02d-b0720dc8dacf")
 	)
 	(wire
 		(pts
-			(xy 33.02 139.7) (xy 33.02 115.57)
+			(xy 64.77 147.32) (xy 114.3 147.32)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "141616e3-2ee9-4ee7-8831-f25b888c02df")
+		(uuid "12c42ba2-f591-4be3-a1a4-2dcd3ea7f86d")
 	)
 	(wire
 		(pts
-			(xy 231.14 78.74) (xy 231.14 50.8)
+			(xy 146.05 97.79) (xy 146.05 148.59)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "1459223a-879f-49bf-91a1-3c558121efea")
+		(uuid "13606c67-f56f-4ce5-bb58-44f34752e2c7")
 	)
 	(wire
 		(pts
-			(xy 71.12 139.7) (xy 114.3 139.7)
+			(xy 80.01 92.71) (xy 80.01 110.49)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "152d3e27-3129-47db-9560-567d398e452f")
+		(uuid "13b237f3-f4f0-4c5c-830e-ff49253ff94c")
 	)
 	(wire
 		(pts
-			(xy 48.26 69.85) (xy 48.26 97.79)
+			(xy 233.68 93.98) (xy 233.68 139.7)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "1771431b-26e4-4bd1-92c5-771acceb919f")
+		(uuid "13c09af8-f6bb-4031-920f-0e75f86545e2")
 	)
 	(wire
 		(pts
-			(xy 146.05 92.71) (xy 148.59 92.71)
+			(xy 41.91 110.49) (xy 48.26 110.49)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "19a81cc9-73d1-4036-afc8-52a8610b6ffe")
+		(uuid "15fdf9a6-e883-4f7b-9c75-27e67a1f6a82")
 	)
 	(wire
 		(pts
-			(xy 223.52 96.52) (xy 228.6 96.52)
+			(xy 77.47 105.41) (xy 77.47 82.55)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "1c0c2bb9-d49c-4c09-b89f-d6ce1f238aec")
+		(uuid "18b7a469-c4d8-4bf7-a517-19e1ac728620")
 	)
 	(wire
 		(pts
-			(xy 167.64 151.13) (xy 167.64 132.08)
+			(xy 176.53 96.52) (xy 176.53 105.41)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "1c13f66a-b153-45d5-9cc1-1d16c5b4854f")
+		(uuid "19f3ab00-fe70-4cc2-a701-0041824f7110")
 	)
 	(wire
 		(pts
-			(xy 62.23 80.01) (xy 45.72 80.01)
+			(xy 177.8 64.77) (xy 143.51 64.77)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "1e459e4c-73bd-4e98-b0b6-67b4cc65ba4d")
+		(uuid "1a3cc13e-7dcc-4aa7-ace6-8dfdeba4d3b5")
 	)
 	(wire
 		(pts
-			(xy 106.68 87.63) (xy 82.55 87.63)
+			(xy 195.58 91.44) (xy 173.99 91.44)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "1ef88c39-03a1-4ea8-863a-5aa47dab12b2")
+		(uuid "1a60f7df-069c-4582-ac77-3a59f3666413")
 	)
 	(wire
 		(pts
-			(xy 67.31 142.24) (xy 116.84 142.24)
+			(xy 143.51 72.39) (xy 147.32 72.39)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "1fd4c758-cc1c-4e39-a49a-2b55a52ad640")
+		(uuid "1afd89c6-1e63-4f6c-8122-4dd7e8aba124")
 	)
 	(wire
 		(pts
-			(xy 177.8 148.59) (xy 147.32 148.59)
+			(xy 93.98 82.55) (xy 130.81 82.55)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "222ac4ac-8aa4-4ce8-8560-837d2ee098bf")
+		(uuid "1b0056cc-f5d1-46e6-b65a-c61bae161ec6")
 	)
 	(wire
 		(pts
-			(xy 109.22 115.57) (xy 109.22 134.62)
+			(xy 223.52 128.27) (xy 148.59 128.27)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "2415baad-8b30-4868-864d-7adaa55f0d28")
+		(uuid "1f36b09b-669b-4649-b971-22d321b16b97")
 	)
 	(wire
 		(pts
-			(xy 236.22 134.62) (xy 163.83 134.62)
+			(xy 27.94 118.11) (xy 48.26 118.11)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "243366b4-e8fe-4d2b-b29b-017a9064c98b")
+		(uuid "2029458b-91ce-44ee-95ff-bedea8bcc8ea")
 	)
 	(wire
 		(pts
-			(xy 179.07 100.33) (xy 147.32 100.33)
+			(xy 77.47 82.55) (xy 93.98 82.55)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "26750e16-df5f-4e08-8d2a-4b222008792f")
+		(uuid "25314339-470f-4612-8c94-77b9b8a0a1ef")
 	)
 	(wire
 		(pts
-			(xy 176.53 74.93) (xy 146.05 74.93)
+			(xy 157.48 92.71) (xy 147.32 92.71)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "26efb9cc-fff9-4171-9b71-8c7a394be0e5")
+		(uuid "25c9e5ab-0464-4edf-9cc3-978ac618d95a")
 	)
 	(wire
 		(pts
-			(xy 233.68 91.44) (xy 223.52 91.44)
+			(xy 144.78 105.41) (xy 144.78 153.67)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "27dbe968-9e80-40d2-b3d6-501ee8a267f8")
+		(uuid "25cab01e-d7f6-4620-8dc3-b9df6dd0784c")
 	)
 	(wire
 		(pts
-			(xy 50.8 95.25) (xy 49.53 95.25)
+			(xy 220.98 101.6) (xy 226.06 101.6)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "27ff3e83-4857-4ea8-94ea-f2c1f6e09e58")
+		(uuid "260c6cf2-6135-465f-8f51-f355a1b20d56")
 	)
 	(wire
 		(pts
-			(xy 96.52 107.95) (xy 99.06 107.95)
+			(xy 148.59 123.19) (xy 143.51 123.19)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "286c2798-a7a8-41b2-9d1b-fcaabbcb1862")
+		(uuid "2689c13d-3c9a-4241-bd89-ac7d758e5fd4")
 	)
 	(wire
 		(pts
-			(xy 180.34 59.69) (xy 146.05 59.69)
+			(xy 226.06 81.28) (xy 220.98 81.28)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "2b358ac4-3e65-4966-8b2e-eaa7de397b9f")
+		(uuid "27a8ffba-0140-433b-b3fb-5b9046189466")
 	)
 	(wire
 		(pts
-			(xy 161.29 97.79) (xy 146.05 97.79)
+			(xy 35.56 139.7) (xy 35.56 125.73)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "2cd60609-24e3-4feb-af37-e3ef51a3e34c")
+		(uuid "27e7ebb3-5fc9-4c55-a1e0-215828eed82c")
 	)
 	(wire
 		(pts
-			(xy 82.55 87.63) (xy 82.55 105.41)
+			(xy 80.01 137.16) (xy 104.14 137.16)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "2cd670e2-f18e-44a4-9166-ec0ec11ba141")
+		(uuid "2a9878bb-7fb3-4536-8fd9-f323699bd7c2")
 	)
 	(wire
 		(pts
-			(xy 81.28 62.23) (xy 76.2 62.23)
+			(xy 236.22 91.44) (xy 236.22 48.26)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "2d4133a4-d6dd-420c-9241-e19e4eca9624")
+		(uuid "2bd8243f-37b9-4be5-89f0-3ab583a742cf")
 	)
 	(wire
 		(pts
-			(xy 176.53 90.17) (xy 146.05 90.17)
+			(xy 57.15 80.01) (xy 130.81 80.01)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "2da6c5df-6630-4fa2-aaf1-526651225898")
+		(uuid "2c2b7377-03c8-49f5-a6df-fc253ebbad8e")
 	)
 	(wire
 		(pts
-			(xy 116.84 100.33) (xy 116.84 142.24)
+			(xy 60.96 90.17) (xy 60.96 135.89)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "306271e1-d8e1-41df-95de-2572d1619b12")
+		(uuid "2c9ce258-a47c-4a31-91a6-1c5e58415bef")
 	)
 	(wire
 		(pts
-			(xy 38.1 134.62) (xy 38.1 120.65)
+			(xy 40.64 101.6) (xy 40.64 113.03)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "312dfc99-672c-4c3a-a189-9a1f103ba482")
+		(uuid "2dc5eb85-afce-4fa2-89f5-b6e110ab294f")
 	)
 	(wire
 		(pts
-			(xy 180.34 71.12) (xy 180.34 59.69)
+			(xy 231.14 53.34) (xy 231.14 86.36)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "31631d0d-ac01-4670-bf5f-88792cdcb7e6")
+		(uuid "2f1323a4-9eb8-47b9-add8-a4101c2d6685")
 	)
 	(wire
 		(pts
-			(xy 184.15 120.65) (xy 146.05 120.65)
+			(xy 175.26 156.21) (xy 165.1 156.21)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "316ceb7e-7de6-4a1a-a05d-ec562afc0215")
+		(uuid "2f64c040-d329-41c3-8c52-77e0ee4022c8")
 	)
 	(wire
 		(pts
-			(xy 210.82 63.5) (xy 210.82 86.36)
+			(xy 152.4 82.55) (xy 143.51 82.55)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "33b57450-fa29-4f10-9678-a5a9cb146897")
+		(uuid "2fbe8f2d-89e7-4595-9d30-7fe31967722f")
 	)
 	(wire
 		(pts
-			(xy 114.3 105.41) (xy 114.3 139.7)
+			(xy 179.07 115.57) (xy 143.51 115.57)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "35206de0-08ad-4c6f-8440-ed7eca00c3ba")
+		(uuid "302a4836-0f16-4a39-b782-ce85ea8a1f48")
 	)
 	(wire
 		(pts
-			(xy 35.56 118.11) (xy 35.56 137.16)
+			(xy 228.6 83.82) (xy 228.6 55.88)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "357415c9-75ef-4bd3-aad4-bac1e934725f")
+		(uuid "302cf4a9-0350-43f6-a71b-9d2b95db968c")
 	)
 	(wire
 		(pts
-			(xy 181.61 110.49) (xy 146.05 110.49)
+			(xy 165.1 137.16) (xy 231.14 137.16)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "35a01def-06fd-4c1c-98da-011fa90b6c8d")
+		(uuid "30515e40-519c-406e-b4ec-6f87eff428bf")
 	)
 	(wire
 		(pts
-			(xy 161.29 134.62) (xy 161.29 97.79)
+			(xy 226.06 101.6) (xy 226.06 132.08)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "3875b744-e621-463a-a499-72a812793821")
+		(uuid "3162b76c-2cb2-4bbd-900b-844213d42d38")
 	)
 	(wire
 		(pts
-			(xy 182.88 99.06) (xy 198.12 99.06)
+			(xy 44.45 105.41) (xy 44.45 80.01)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "389e1304-28a1-4ac9-9878-f3c00c29a02a")
+		(uuid "32dad1c1-653f-4cb2-9940-fb5d95d5a9a5")
 	)
 	(wire
 		(pts
-			(xy 176.53 78.74) (xy 176.53 74.93)
+			(xy 109.22 97.79) (xy 130.81 97.79)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "3a8acf3e-9021-45c1-b430-3027823ab2a6")
+		(uuid "3483838d-0b19-4f01-84eb-18b81a261e61")
 	)
 	(wire
 		(pts
-			(xy 49.53 64.77) (xy 54.61 64.77)
+			(xy 92.71 118.11) (xy 73.66 118.11)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "3c9a7bf7-2078-4d8d-a36e-bba2e01372c5")
+		(uuid "3628144c-79d0-4acf-938b-7a2869158f08")
 	)
 	(wire
 		(pts
-			(xy 223.52 86.36) (xy 238.76 86.36)
+			(xy 226.06 132.08) (xy 151.13 132.08)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "3da565b7-153a-4e29-9768-6f7c4f0bf29f")
+		(uuid "369aba54-70f1-40cb-84bb-57ff295d5de1")
 	)
 	(wire
 		(pts
-			(xy 223.52 78.74) (xy 231.14 78.74)
+			(xy 172.72 86.36) (xy 195.58 86.36)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "3e3f5412-4832-4b41-b942-224330c23a3c")
+		(uuid "3863fdf2-a575-4939-94ef-a75152d4fcb8")
 	)
 	(wire
 		(pts
-			(xy 175.26 81.28) (xy 198.12 81.28)
+			(xy 175.26 93.98) (xy 175.26 100.33)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "3e94daf7-c91f-4941-b279-3e2c6dcf7fec")
+		(uuid "38647a06-d425-47b4-bf44-3a2f83b4f8b8")
 	)
 	(wire
 		(pts
-			(xy 236.22 83.82) (xy 236.22 45.72)
+			(xy 143.51 110.49) (xy 177.8 110.49)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "40d07874-09f6-4362-a8e5-6721e8709d7d")
+		(uuid "3af206be-2080-48a2-af3b-a39d513cd4d8")
 	)
 	(wire
 		(pts
-			(xy 96.52 107.95) (xy 96.52 115.57)
+			(xy 147.32 146.05) (xy 175.26 146.05)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "43f0cb23-c325-4684-8e07-d0f07f4e380f")
+		(uuid "3b33ca69-b93f-49e2-9d72-be16a289da8e")
 	)
 	(wire
 		(pts
-			(xy 198.12 78.74) (xy 176.53 78.74)
+			(xy 54.61 74.93) (xy 130.81 74.93)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "4412ca99-3888-4e2c-b9e6-637e4bef93c3")
+		(uuid "3bb71327-ba3e-4f18-9b24-5a155e1061dd")
 	)
 	(wire
 		(pts
-			(xy 119.38 95.25) (xy 119.38 144.78)
+			(xy 91.44 102.87) (xy 92.71 102.87)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "445d1c74-9a0e-4830-8620-ff9aa2270dfd")
+		(uuid "3c026941-206e-4bb4-a148-5d32104ecceb")
 	)
 	(wire
 		(pts
-			(xy 111.76 110.49) (xy 133.35 110.49)
+			(xy 154.94 87.63) (xy 154.94 53.34)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "44cb0453-45ff-4d61-a673-ea409f6453dd")
+		(uuid "3d74e4e6-8cd3-4afa-90ad-41f1e72606e6")
 	)
 	(wire
 		(pts
-			(xy 44.45 85.09) (xy 59.69 85.09)
+			(xy 175.26 153.67) (xy 144.78 153.67)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "465a15d3-9ce7-41d3-b944-41f8593662bd")
+		(uuid "3fd1e5e6-66e0-4385-8547-37cff2e15137")
 	)
 	(wire
 		(pts
-			(xy 101.6 118.11) (xy 99.06 118.11)
+			(xy 40.64 113.03) (xy 48.26 113.03)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "4770c6ea-3046-4c0a-a331-11f4969e677f")
+		(uuid "40a45954-7c9c-442b-8f54-0a99f315372e")
 	)
 	(wire
 		(pts
-			(xy 226.06 99.06) (xy 226.06 123.19)
+			(xy 59.69 85.09) (xy 43.18 85.09)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "47860dd1-f609-43c1-9c7c-732f636a1b83")
+		(uuid "40de6686-5e65-46d0-ad6d-342592e3b93d")
 	)
 	(wire
 		(pts
-			(xy 152.4 72.39) (xy 152.4 54.61)
+			(xy 195.58 101.6) (xy 179.07 101.6)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "47ad3242-92ca-4195-9980-427c58d588ef")
+		(uuid "4175290e-aacf-46a1-9d6a-e2cfb286abb5")
 	)
 	(wire
 		(pts
-			(xy 182.88 115.57) (xy 182.88 99.06)
+			(xy 81.28 97.79) (xy 81.28 113.03)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "4858096c-ef31-4682-9308-2100d731a7a8")
+		(uuid "41841a59-96b0-4b21-9e07-bc697ae30bb4")
 	)
 	(wire
 		(pts
-			(xy 175.26 80.01) (xy 146.05 80.01)
+			(xy 104.14 92.71) (xy 80.01 92.71)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "4988e5c4-31c9-4b69-b724-dddeed9e100e")
+		(uuid "42ae22d6-5993-44bc-90d0-157428bc3abd")
 	)
 	(wire
 		(pts
-			(xy 96.52 77.47) (xy 133.35 77.47)
+			(xy 99.06 87.63) (xy 78.74 87.63)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "49dadbc1-3b24-4afd-891a-be740cf9f394")
+		(uuid "43329436-4d1c-4005-a215-371e544c960f")
 	)
 	(wire
 		(pts
-			(xy 180.34 93.98) (xy 198.12 93.98)
+			(xy 173.99 80.01) (xy 143.51 80.01)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "50355377-1d78-43bd-beb9-29da499afc26")
+		(uuid "43dad148-9690-47a8-a2e7-6d52c683159a")
 	)
 	(wire
 		(pts
-			(xy 146.05 113.03) (xy 153.67 113.03)
+			(xy 160.02 48.26) (xy 160.02 97.79)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "51692df0-6f29-4318-9aa1-5cb719319af7")
+		(uuid "442e5a87-17d6-485a-8b31-7cb3ed139667")
 	)
 	(wire
 		(pts
-			(xy 76.2 62.23) (xy 76.2 92.71)
+			(xy 195.58 88.9) (xy 172.72 88.9)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "516e4511-3988-4399-92bf-b4dd674be782")
+		(uuid "46b813a5-66e0-43c4-bc37-c8e3d69a5237")
 	)
 	(wire
 		(pts
-			(xy 49.53 95.25) (xy 49.53 64.77)
+			(xy 73.66 67.31) (xy 73.66 97.79)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "51d24be2-4438-43a0-ac21-06b8b228d8c3")
+		(uuid "46bbd496-b1c4-455b-9792-f9fcceb1047c")
 	)
 	(wire
 		(pts
-			(xy 50.8 100.33) (xy 46.99 100.33)
+			(xy 91.44 115.57) (xy 73.66 115.57)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "51eb2190-f85f-4dbb-aabd-1b387c66c1f3")
+		(uuid "46e364a6-b3c5-4d73-bd74-01b28aee2630")
 	)
 	(wire
 		(pts
-			(xy 146.05 102.87) (xy 158.75 102.87)
+			(xy 172.72 86.36) (xy 172.72 85.09)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "5208d5ab-9fa4-462f-a064-a6e73ab710ba")
+		(uuid "49e0cd26-ad97-4b1b-bde4-8e657c40362c")
 	)
 	(wire
 		(pts
-			(xy 78.74 72.39) (xy 78.74 97.79)
+			(xy 68.58 144.78) (xy 30.48 144.78)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "521b83d0-9868-4c45-902e-77d7e469aaa3")
+		(uuid "4a4227c4-156f-4f98-8dc9-cca0ec2cc41c")
 	)
 	(wire
 		(pts
-			(xy 93.98 97.79) (xy 93.98 110.49)
+			(xy 181.61 106.68) (xy 181.61 125.73)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "531e4224-2757-4196-b734-d23736e28b2d")
+		(uuid "4ada32bd-d5d3-40a1-9f3a-fe41daec0c6f")
 	)
 	(wire
 		(pts
-			(xy 45.72 102.87) (xy 50.8 102.87)
+			(xy 45.72 74.93) (xy 45.72 102.87)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "531fb3a0-3a07-4a04-8056-3e069b132658")
+		(uuid "4e0261f9-e26d-4dec-b90a-63d5bdd905c4")
 	)
 	(wire
 		(pts
-			(xy 95.25 97.79) (xy 133.35 97.79)
+			(xy 236.22 48.26) (xy 160.02 48.26)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "54ea0a68-517e-488e-950d-ab1c0719feef")
+		(uuid "4f05cb1b-c991-4ed6-97f8-0ed091110a6e")
 	)
 	(wire
 		(pts
-			(xy 50.8 59.69) (xy 52.07 59.69)
+			(xy 114.3 105.41) (xy 114.3 147.32)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "56bcb79f-0f5a-4e68-a19b-22ce3cea0393")
+		(uuid "4f6bec78-74dd-4c42-ae05-b6b9fdb61721")
 	)
 	(wire
 		(pts
-			(xy 198.12 101.6) (xy 184.15 101.6)
+			(xy 116.84 100.33) (xy 116.84 149.86)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "578cd0c0-83e1-4c32-b4fe-3c7106bd580a")
+		(uuid "504af84f-4c20-4f34-a84a-1ed4420d5aa4")
 	)
 	(wire
 		(pts
-			(xy 44.45 105.41) (xy 50.8 105.41)
+			(xy 152.4 55.88) (xy 152.4 82.55)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "579e3e49-81ae-4923-a5f0-d0d77f196af4")
+		(uuid "5132060a-02af-459e-b204-baadfa47e424")
 	)
 	(wire
 		(pts
-			(xy 40.64 123.19) (xy 40.64 132.08)
+			(xy 220.98 83.82) (xy 228.6 83.82)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "58611880-abfc-4359-8a56-53d423206c6c")
+		(uuid "54325ba8-f482-4e30-9d2c-aab08ea08230")
 	)
 	(wire
 		(pts
-			(xy 175.26 85.09) (xy 146.05 85.09)
+			(xy 223.52 78.74) (xy 220.98 78.74)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "598f18b9-06ad-4f01-b343-eb13afd2b822")
+		(uuid "544e91ef-5868-4be7-8bde-5a350f6e7273")
 	)
 	(wire
 		(pts
-			(xy 27.94 144.78) (xy 27.94 110.49)
+			(xy 143.51 77.47) (xy 149.86 77.47)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "59b08f54-9d69-475d-ba70-d90ed934529f")
+		(uuid "55027814-a3a3-4ee4-834d-1b95bda3c203")
 	)
 	(wire
 		(pts
-			(xy 228.6 127) (xy 153.67 127)
+			(xy 88.9 77.47) (xy 76.2 77.47)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "5a96df80-5e87-4e86-9e5c-f09904d90669")
+		(uuid "57030c37-88d0-451f-ad4a-1b6a3923148f")
 	)
 	(wire
 		(pts
-			(xy 95.25 113.03) (xy 76.2 113.03)
+			(xy 146.05 97.79) (xy 160.02 97.79)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "5ae9c4a4-f4a5-44d9-af30-6b49d5cce56f")
+		(uuid "571c2a66-866c-4f1b-a6b2-244e563e4d2f")
 	)
 	(wire
 		(pts
-			(xy 133.35 95.25) (xy 119.38 95.25)
+			(xy 27.94 147.32) (xy 27.94 118.11)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "5bcbf969-493c-4bd2-9fa4-c0fa8e92accc")
+		(uuid "58c1a50f-5c72-4035-bcab-505fedd43323")
 	)
 	(wire
 		(pts
-			(xy 133.35 118.11) (xy 101.6 118.11)
+			(xy 172.72 88.9) (xy 172.72 90.17)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "5cfb3190-83c8-48a6-981d-de102ffd7283")
+		(uuid "5a615f72-6d65-4659-91d3-f8d6cd4325bb")
 	)
 	(wire
 		(pts
-			(xy 133.35 105.41) (xy 114.3 105.41)
+			(xy 181.61 125.73) (xy 143.51 125.73)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "5db2af55-081d-4991-9eab-45f5acf0f61c")
+		(uuid "5a7a5979-c9e0-4d4b-ac95-969bbf55920f")
 	)
 	(wire
 		(pts
-			(xy 83.82 92.71) (xy 111.76 92.71)
+			(xy 72.39 142.24) (xy 109.22 142.24)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "5dd2a712-2817-4780-8b53-d815333b8271")
+		(uuid "5b9d19fd-599e-4e1c-b67f-52ae90825984")
 	)
 	(wire
 		(pts
-			(xy 82.55 132.08) (xy 106.68 132.08)
+			(xy 40.64 95.25) (xy 40.64 101.6)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "60e61e9e-294c-4489-b084-b37a27b435a5")
+		(uuid "5bbe30a9-d00e-4bef-9af5-6b0e9e621a18")
 	)
 	(wire
 		(pts
-			(xy 76.2 95.25) (xy 77.47 95.25)
+			(xy 220.98 99.06) (xy 228.6 99.06)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "62d1752c-da55-421d-89de-08aafb57708b")
+		(uuid "5bc8185b-1e18-4969-94bf-b7145e7a90d4")
 	)
 	(wire
 		(pts
-			(xy 152.4 54.61) (xy 228.6 54.61)
+			(xy 95.25 123.19) (xy 73.66 123.19)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "638cfc59-f75e-49ea-bf44-76e93ea9919f")
+		(uuid "5c83b03d-627e-4bb2-baa9-93545f133eb7")
 	)
 	(wire
 		(pts
-			(xy 226.06 57.15) (xy 226.06 73.66)
+			(xy 76.2 77.47) (xy 76.2 102.87)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "65af3815-4890-401d-8d13-638213fbb18d")
+		(uuid "5d88d339-33d0-4627-a510-6d74bc1da0c4")
 	)
 	(wire
 		(pts
-			(xy 198.12 91.44) (xy 179.07 91.44)
+			(xy 158.75 102.87) (xy 143.51 102.87)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "65e15843-07ee-49d8-a3bb-a9e27116b8b9")
+		(uuid "5e3eff7d-f42b-4850-9f47-7ce0c3cf9dc8")
 	)
 	(wire
 		(pts
-			(xy 119.38 144.78) (xy 63.5 144.78)
+			(xy 172.72 85.09) (xy 143.51 85.09)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "67f48c1b-8c6c-4d9c-a24a-c548c1bba6fd")
+		(uuid "5e975d32-6447-4bb7-9bf2-274bdf55bcfe")
 	)
 	(wire
 		(pts
-			(xy 77.47 67.31) (xy 86.2759 67.31)
+			(xy 195.58 83.82) (xy 173.99 83.82)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "685b0de2-2479-434a-85fa-709e3c1c5802")
+		(uuid "5f88e2f9-dae5-4acf-9680-54feadc8845d")
 	)
 	(wire
 		(pts
-			(xy 156.21 107.95) (xy 146.05 107.95)
+			(xy 91.44 102.87) (xy 91.44 115.57)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "69eddfa5-9da3-473d-aceb-f8d9d41d7bde")
+		(uuid "60659592-ad8e-4c77-aca9-87841fce0aac")
 	)
 	(wire
 		(pts
-			(xy 146.05 62.23) (xy 223.52 62.23)
+			(xy 233.68 93.98) (xy 220.98 93.98)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "711a7bd9-e1d2-45eb-8817-1dc101f6eed5")
+		(uuid "61e119ce-4fce-4ffd-b409-5c4e2fa55988")
 	)
 	(wire
 		(pts
-			(xy 95.25 102.87) (xy 95.25 113.03)
+			(xy 68.58 144.78) (xy 111.76 144.78)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "7193b507-c916-4508-890c-e5e298889d50")
+		(uuid "628137f5-be44-455d-8e24-359001fce17c")
 	)
 	(wire
 		(pts
-			(xy 81.28 82.55) (xy 81.28 102.87)
+			(xy 177.8 76.2) (xy 177.8 64.77)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "71d08f0c-be29-403c-890f-29c7b15fb6af")
+		(uuid "63c41d7c-1864-467b-9270-f73648b81767")
 	)
 	(wire
 		(pts
-			(xy 149.86 140.97) (xy 177.8 140.97)
+			(xy 220.98 88.9) (xy 233.68 88.9)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "72274376-d6d5-4ba1-a369-a6271cc56153")
+		(uuid "648fc765-a896-460d-80a6-a82dbf3dcec0")
 	)
 	(wire
 		(pts
-			(xy 153.67 127) (xy 153.67 113.03)
+			(xy 93.98 113.03) (xy 96.52 113.03)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "726c1ea5-154f-4bc5-9fc5-5c623613a0ee")
+		(uuid "66909807-3f3c-4605-939d-7caa706866d9")
 	)
 	(wire
 		(pts
-			(xy 149.86 87.63) (xy 146.05 87.63)
+			(xy 78.74 67.31) (xy 73.66 67.31)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "731cbb01-882a-419d-a41b-5945d48a2f94")
+		(uuid "669bbfa7-10bb-477c-bded-622980fcc402")
 	)
 	(wire
 		(pts
-			(xy 91.44 72.39) (xy 78.74 72.39)
+			(xy 60.96 149.86) (xy 25.4 149.86)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "7552ac3a-376b-4974-a0f4-b72928495848")
+		(uuid "6b271218-9476-4094-8057-cdf0c9f69a24")
 	)
 	(wire
 		(pts
-			(xy 59.69 83.82) (xy 63.5 83.82)
+			(xy 81.28 113.03) (xy 73.66 113.03)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "75a463ec-6553-4a6b-8a73-7c2e1b791ba5")
+		(uuid "6c49a8fa-4fb9-4d1f-b2ea-50a616f492f9")
 	)
 	(wire
 		(pts
-			(xy 162.56 43.18) (xy 162.56 92.71)
+			(xy 180.34 120.65) (xy 180.34 104.14)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "7654d019-8711-4a7f-bc52-cac3fcb41f29")
+		(uuid "6da61aaa-ac61-48f0-b151-1fdb7a1141ce")
 	)
 	(wire
 		(pts
-			(xy 133.35 72.39) (xy 91.44 72.39)
+			(xy 149.86 77.47) (xy 149.86 59.69)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "76b6ff3f-2893-4c4e-a0bd-6459ff24d12a")
+		(uuid "6e9db94a-1e22-4438-a44e-438926644fd3")
 	)
 	(wire
 		(pts
-			(xy 97.79 102.87) (xy 133.35 102.87)
+			(xy 165.1 156.21) (xy 165.1 137.16)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "7722bacc-b7d7-40ac-9a75-3a43f2710adb")
+		(uuid "6fdee0a3-8078-47d2-91d8-e7b9dfbcaeaa")
 	)
 	(wire
 		(pts
-			(xy 175.26 83.82) (xy 175.26 85.09)
+			(xy 161.29 151.13) (xy 175.26 151.13)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "7c2afa33-22b8-4d7a-90bb-59dad44922f7")
+		(uuid "70cd7153-3cbf-480b-91c3-56cd46871ba7")
 	)
 	(wire
 		(pts
-			(xy 149.86 67.31) (xy 149.86 57.15)
+			(xy 33.02 123.19) (xy 33.02 142.24)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "7cbfd549-dc02-4567-8767-e9d677d98cf5")
+		(uuid "71fb40ab-8063-44f7-b223-807d4c043e4a")
 	)
 	(wire
 		(pts
-			(xy 158.75 102.87) (xy 158.75 132.08)
+			(xy 73.66 125.73) (xy 96.52 125.73)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "7e8243d7-8ed7-4909-82a3-bb6375908123")
+		(uuid "7216b3f3-7dac-41db-ac16-3232109cffdb")
 	)
 	(wire
 		(pts
-			(xy 80.01 77.47) (xy 96.52 77.47)
+			(xy 92.71 107.95) (xy 92.71 118.11)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "822be209-40f5-413f-b96b-ec25046e95e4")
+		(uuid "7387cea4-96bd-49b3-9afd-bbd6c741b09c")
 	)
 	(wire
 		(pts
-			(xy 158.75 132.08) (xy 167.64 132.08)
+			(xy 130.81 77.47) (xy 88.9 77.47)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "82b0a55d-5c9f-4122-8c81-04e8fee30845")
+		(uuid "7550b87a-27cb-4de8-8122-f6bfe0672fa4")
 	)
 	(wire
 		(pts
-			(xy 97.79 113.03) (xy 97.79 118.11)
+			(xy 48.26 64.77) (xy 49.53 64.77)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "84313710-6c8d-4556-ae8f-4e1b258ba242")
+		(uuid "75e0bdc3-6da8-4e15-97fd-f102ffc58e1e")
 	)
 	(wire
 		(pts
-			(xy 233.68 91.44) (xy 233.68 132.08)
+			(xy 48.26 105.41) (xy 44.45 105.41)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "858cf5c3-d6c8-49b6-a801-95c0743c993b")
+		(uuid "76aafa5a-fc53-4fa0-a8a5-42c27e4704af")
 	)
 	(wire
 		(pts
-			(xy 167.64 132.08) (xy 233.68 132.08)
+			(xy 223.52 104.14) (xy 220.98 104.14)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "85cdbb2d-c684-43d5-bb6b-aaf2bc2b557d")
+		(uuid "774a52bb-8ad8-4f2b-8970-80c9c556eca0")
 	)
 	(wire
 		(pts
-			(xy 45.72 80.01) (xy 45.72 102.87)
+			(xy 106.68 139.7) (xy 76.2 139.7)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "85eea6ed-2466-4944-8c91-ad59b213a222")
+		(uuid "77a2a557-2912-4eaf-8631-5eb61472a460")
 	)
 	(wire
 		(pts
-			(xy 147.32 100.33) (xy 147.32 148.59)
+			(xy 208.28 68.58) (xy 208.28 114.3)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "866bd74e-a40f-41a8-91be-a123a1a06b06")
+		(uuid "77f6b8f2-bb8f-4e3f-bf4a-d9f5ef9d6a0e")
 	)
 	(wire
 		(pts
-			(xy 133.35 115.57) (xy 109.22 115.57)
+			(xy 177.8 99.06) (xy 195.58 99.06)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "86c78324-6f25-41d6-b411-a4354f0f61b8")
+		(uuid "7a34d53f-ab5b-414c-8fd1-e9de0cdddccd")
 	)
 	(wire
 		(pts
-			(xy 50.8 118.11) (xy 35.56 118.11)
+			(xy 111.76 110.49) (xy 111.76 144.78)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "870d7b21-9daf-4ec5-8101-b5c5342eb81c")
+		(uuid "7adddefe-b053-4d2a-baa2-9ff96d8d0471")
 	)
 	(wire
 		(pts
-			(xy 198.12 86.36) (xy 176.53 86.36)
+			(xy 46.99 69.85) (xy 52.07 69.85)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "88dabe99-2eee-42b6-b9dd-3797304296c5")
+		(uuid "7d6cbf36-01f6-4d69-a7c9-666ee035e7b1")
 	)
 	(wire
 		(pts
-			(xy 76.2 100.33) (xy 80.01 100.33)
+			(xy 195.58 93.98) (xy 175.26 93.98)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "8ad5a6a2-c310-4938-bc9d-5d8fae089177")
+		(uuid "7e8978e5-66ec-403a-adad-c33b7e264f34")
 	)
 	(wire
 		(pts
-			(xy 160.02 45.72) (xy 160.02 87.63)
+			(xy 44.45 80.01) (xy 57.15 80.01)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "8b57be64-b3c9-42be-b7b8-31b9e5c5e9b8")
+		(uuid "7f4163fa-5486-4457-80b8-c9e3a602239b")
 	)
 	(wire
 		(pts
-			(xy 147.32 100.33) (xy 146.05 100.33)
+			(xy 148.59 128.27) (xy 148.59 123.19)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "8d07fdb0-2ff1-47b5-81d0-05cf9cd89d48")
+		(uuid "80211686-4e49-4ce0-b01d-9bf7d1399018")
 	)
 	(wire
 		(pts
-			(xy 83.82 107.95) (xy 76.2 107.95)
+			(xy 130.81 123.19) (xy 99.06 123.19)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "8d96421f-c3e5-4f2f-995c-e8624e1bde83")
+		(uuid "81bf821e-2e58-46f0-962f-00494ffc904d")
 	)
 	(wire
 		(pts
-			(xy 177.8 151.13) (xy 167.64 151.13)
+			(xy 156.21 107.95) (xy 156.21 137.16)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "8e4746bd-8ced-42ba-b27c-d42af2c9bba8")
+		(uuid "825446d5-b503-4256-9f84-60661930a272")
 	)
 	(wire
 		(pts
-			(xy 97.79 113.03) (xy 100.33 113.03)
+			(xy 76.2 102.87) (xy 73.66 102.87)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "8eccb71b-16b1-44f5-beb5-fcf160406251")
+		(uuid "82f09f22-8dcb-4609-a66c-26940111783e")
 	)
 	(wire
 		(pts
-			(xy 163.83 134.62) (xy 161.29 134.62)
+			(xy 74.93 100.33) (xy 74.93 72.39)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "9235309b-fef6-4f1c-bb65-1104fe4aba2b")
+		(uuid "830814f1-1e40-41a2-b19b-ff078911fb87")
 	)
 	(wire
 		(pts
-			(xy 38.1 120.65) (xy 50.8 120.65)
+			(xy 41.91 92.71) (xy 41.91 110.49)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "925d7f8a-e232-47e1-8dda-3791ec51934e")
+		(uuid "8497c059-970b-4c6a-81e3-caecd5020c84")
 	)
 	(wire
 		(pts
-			(xy 59.69 83.82) (xy 59.69 85.09)
+			(xy 57.15 88.9) (xy 62.23 88.9)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "9376f7bc-c74b-4d40-9e30-f20a760494b6")
+		(uuid "855a8881-d91d-4eb7-b650-ccf35c49b0b2")
 	)
 	(wire
 		(pts
-			(xy 146.05 105.41) (xy 180.34 105.41)
+			(xy 175.26 100.33) (xy 143.51 100.33)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "9440f882-780b-40e1-8e58-7d054cf49012")
+		(uuid "85a1d888-e9c2-4e58-a3d8-5b8477312b3c")
 	)
 	(wire
 		(pts
-			(xy 177.8 95.25) (xy 146.05 95.25)
+			(xy 116.84 149.86) (xy 60.96 149.86)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "96e8d32f-71fc-404d-b157-5bbf7628a60c")
+		(uuid "868281ff-8057-4663-a7f8-b9d2f308f8e9")
 	)
 	(wire
 		(pts
-			(xy 62.23 80.01) (xy 133.35 80.01)
+			(xy 146.05 148.59) (xy 175.26 148.59)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "972ca9a7-fb27-4e8e-8926-68b2fe5dc6b6")
+		(uuid "890a889f-f02b-45b0-95fe-7c1584be892e")
 	)
 	(wire
 		(pts
-			(xy 175.26 81.28) (xy 175.26 80.01)
+			(xy 180.34 104.14) (xy 195.58 104.14)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "98db8b08-bdfe-4395-8e61-5b84c6dc32bc")
+		(uuid "8a253511-71ce-447a-8904-41e5344f0bd4")
 	)
 	(wire
 		(pts
-			(xy 38.1 134.62) (xy 78.74 134.62)
+			(xy 147.32 92.71) (xy 147.32 146.05)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "9a6245f8-20f5-4df5-b7ca-856206a0c673")
+		(uuid "8abfaf78-cf7c-4579-aad1-b235427d1894")
 	)
 	(wire
 		(pts
-			(xy 133.35 62.23) (xy 81.28 62.23)
+			(xy 130.81 87.63) (xy 99.06 87.63)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "9bea6d51-8bf6-466c-86f4-4080158f3874")
+		(uuid "8cfd7a2b-a781-48b9-94e4-8ac960be5a51")
 	)
 	(wire
 		(pts
-			(xy 86.2759 67.31) (xy 133.35 67.31)
+			(xy 48.26 123.19) (xy 33.02 123.19)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "9c007747-19dd-4384-8c4c-4a2cc96bd3fe")
+		(uuid "8f0b9e85-2c36-4f88-96f1-af2af3a6489a")
 	)
 	(wire
 		(pts
-			(xy 46.99 100.33) (xy 46.99 74.93)
+			(xy 43.18 107.95) (xy 48.26 107.95)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "9c22c792-97dd-497d-aca6-b6aeae237316")
+		(uuid "90f5f821-4147-4396-a6fd-ce1a3b2e5436")
 	)
 	(wire
 		(pts
-			(xy 198.12 73.66) (xy 179.07 73.66)
+			(xy 223.52 104.14) (xy 223.52 128.27)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "9da16ee9-d799-49db-9e92-328c3e7b27d6")
+		(uuid "91dd6f6c-eef6-48e3-928d-5cf16f1a23f0")
 	)
 	(wire
 		(pts
-			(xy 151.13 123.19) (xy 151.13 118.11)
+			(xy 233.68 139.7) (xy 161.29 139.7)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "9f0e768e-7747-4531-a235-18fca7d79101")
+		(uuid "91f6cd3f-e083-4157-8d21-062b5b95c6f0")
 	)
 	(wire
 		(pts
-			(xy 238.76 43.18) (xy 162.56 43.18)
+			(xy 97.79 118.11) (xy 130.81 118.11)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "9fed0feb-8b98-4992-a748-487224072828")
+		(uuid "9363f6b4-d39a-493c-bcc1-3e1ac3bca6e2")
 	)
 	(wire
 		(pts
-			(xy 151.13 118.11) (xy 146.05 118.11)
+			(xy 25.4 115.57) (xy 48.26 115.57)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a1b16351-766b-4ca6-a272-0ee6f49d4865")
+		(uuid "94a203f5-0904-433c-9aae-c28aad6b9ca0")
 	)
 	(wire
 		(pts
-			(xy 106.68 120.65) (xy 133.35 120.65)
+			(xy 220.98 91.44) (xy 236.22 91.44)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a33e5678-c64c-478e-acfc-5181afeec29e")
+		(uuid "95db9150-83c5-419d-9332-ba60b72e5acf")
 	)
 	(wire
 		(pts
-			(xy 148.59 92.71) (xy 148.59 143.51)
+			(xy 40.64 95.25) (xy 130.81 95.25)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a3fff45a-d890-4093-b050-2f06ebb72be3")
+		(uuid "96d9edf0-a13d-488f-a8e2-fc9b99b79581")
 	)
 	(wire
 		(pts
-			(xy 30.48 142.24) (xy 30.48 113.03)
+			(xy 130.81 105.41) (xy 114.3 105.41)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a454c4a9-3f2b-4cf2-9545-dabfc631beaa")
+		(uuid "9731c6ab-353a-4cc6-ac50-5fe5f5fba4b9")
 	)
 	(wire
 		(pts
-			(xy 43.18 96.52) (xy 43.18 107.95)
+			(xy 54.61 74.93) (xy 45.72 74.93)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a48df159-b432-4963-8232-9530e61b9849")
+		(uuid "994a6ad7-1b5b-49dd-84a4-87585cf8668e")
 	)
 	(wire
 		(pts
-			(xy 180.34 105.41) (xy 180.34 93.98)
+			(xy 48.26 97.79) (xy 48.26 64.77)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a4e8e864-0c3b-43cc-a14a-6ccd26fb8185")
+		(uuid "9a02dc77-2994-4499-8919-5413315ae214")
 	)
 	(wire
 		(pts
-			(xy 64.77 85.09) (xy 64.77 83.82)
+			(xy 46.99 100.33) (xy 46.99 69.85)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a6b550b2-6e83-4e2b-9da9-7c4715c45751")
+		(uuid "9b17f81d-f26c-42c4-92cc-d6e4aed7da88")
 	)
 	(wire
 		(pts
-			(xy 52.07 59.69) (xy 133.35 59.69)
+			(xy 231.14 96.52) (xy 231.14 137.16)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a6f47192-b9cd-46d0-8df4-d17e0bdf2072")
+		(uuid "9b506d2c-1e1b-4e3e-9358-406a824d6996")
 	)
 	(wire
 		(pts
-			(xy 44.45 87.63) (xy 44.45 105.41)
+			(xy 130.81 100.33) (xy 116.84 100.33)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a7360f74-b125-4290-b435-a7beabb2c1aa")
+		(uuid "9cfb066a-3d7d-458e-b2d4-42584a056c1a")
 	)
 	(wire
 		(pts
-			(xy 228.6 96.52) (xy 228.6 127)
+			(xy 153.67 113.03) (xy 143.51 113.03)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a8664950-4bae-486d-9413-0de23dda34e2")
+		(uuid "9d8eed99-2406-46ba-adba-593dfe7d2bd6")
 	)
 	(wire
 		(pts
-			(xy 154.94 50.8) (xy 154.94 77.47)
+			(xy 43.18 85.09) (xy 43.18 107.95)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a918300b-fc50-4752-bb4d-a704d8c1ecba")
+		(uuid "9f24e4ee-bc3c-4fe8-81d1-f6fb04f902a4")
 	)
 	(wire
 		(pts
-			(xy 146.05 72.39) (xy 152.4 72.39)
+			(xy 130.81 110.49) (xy 111.76 110.49)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a987159f-5595-4871-b763-3cc23c4df4e3")
+		(uuid "9fc0b4dd-83e8-473f-a7cb-23df0c822b3b")
 	)
 	(wire
 		(pts
-			(xy 223.52 83.82) (xy 236.22 83.82)
+			(xy 176.53 69.85) (xy 143.51 69.85)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a9c20d03-96f4-4da1-9500-cfbd6af4a0c6")
+		(uuid "a0d450c4-ed68-422e-95d2-f0a9d983391b")
 	)
 	(wire
 		(pts
-			(xy 57.15 69.85) (xy 48.26 69.85)
+			(xy 156.21 137.16) (xy 165.1 137.16)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "aa8cb5bb-a7d2-4904-9cea-0d7e44c5a2f9")
+		(uuid "a1677a94-97c0-41fa-825a-53ada6eaf305")
 	)
 	(wire
 		(pts
-			(xy 76.2 120.65) (xy 99.06 120.65)
+			(xy 143.51 107.95) (xy 156.21 107.95)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ac60cd9d-0369-4f78-87ca-6e5f823531a2")
+		(uuid "a1f71c1d-a82a-4294-934d-89238ce47f1a")
 	)
 	(wire
 		(pts
-			(xy 226.06 73.66) (xy 223.52 73.66)
+			(xy 154.94 53.34) (xy 231.14 53.34)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ac989631-f11a-4e8c-ad23-3bd40f063e23")
+		(uuid "a23588c0-9049-460c-91e3-5e1d26b39b13")
 	)
 	(wire
 		(pts
-			(xy 78.74 97.79) (xy 76.2 97.79)
+			(xy 99.06 123.19) (xy 96.52 123.19)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "acc4a2d8-267e-42cd-b0aa-48ded7d1ae7e")
+		(uuid "a31abdbe-eafc-4725-83e6-00f30fe6eade")
 	)
 	(wire
 		(pts
-			(xy 83.82 92.71) (xy 83.82 107.95)
+			(xy 175.26 81.28) (xy 175.26 74.93)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "aceb00d8-c873-4cbb-b0a6-fdcbb30ad258")
+		(uuid "a34480f7-81e3-4a08-a33f-4bf427857312")
 	)
 	(wire
 		(pts
-			(xy 27.94 110.49) (xy 50.8 110.49)
+			(xy 226.06 59.69) (xy 226.06 81.28)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ad3974b3-fd04-44a2-b405-a4cf85966610")
+		(uuid "a558f85c-1f54-492e-88d7-72c5971a09f0")
 	)
 	(wire
 		(pts
-			(xy 71.12 139.7) (xy 33.02 139.7)
+			(xy 173.99 95.25) (xy 143.51 95.25)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "af96e8ea-bc6d-467e-872d-53ee42c5b604")
+		(uuid "a9d8c8f8-1473-4a0f-9604-8ce52bc3a0ec")
 	)
 	(wire
 		(pts
-			(xy 157.48 48.26) (xy 233.68 48.26)
+			(xy 157.48 50.8) (xy 157.48 92.71)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b0b8b030-9ce0-420c-b754-647214cefe2b")
+		(uuid "a9f07140-5616-46bb-8a89-6a8f129f1893")
 	)
 	(wire
 		(pts
-			(xy 63.5 85.09) (xy 63.5 130.81)
+			(xy 73.66 100.33) (xy 74.93 100.33)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b0f2b9d6-cd24-456d-a7da-ef2887188a34")
+		(uuid "aa532dbc-962b-4787-8d36-418ab7407417")
 	)
 	(wire
 		(pts
-			(xy 106.68 87.63) (xy 133.35 87.63)
+			(xy 30.48 144.78) (xy 30.48 120.65)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b12b4957-fb8c-4216-bab6-1337da2a9cd9")
+		(uuid "ab9a8b7f-9adc-4638-b1fe-d7fc8bd6890d")
 	)
 	(wire
 		(pts
-			(xy 99.06 107.95) (xy 133.35 107.95)
+			(xy 231.14 86.36) (xy 220.98 86.36)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b2252302-7f19-432d-9218-b3ac616299a8")
+		(uuid "aba2ae22-e1be-443a-9ec2-9cb6623f95b0")
 	)
 	(wire
 		(pts
-			(xy 236.22 88.9) (xy 236.22 134.62)
+			(xy 143.51 97.79) (xy 146.05 97.79)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b300f398-79c8-4fb2-8bce-1be065f9e52d")
+		(uuid "acbe8870-6287-4faa-a0db-e7fce034b88a")
 	)
 	(wire
 		(pts
-			(xy 231.14 93.98) (xy 231.14 129.54)
+			(xy 172.72 90.17) (xy 143.51 90.17)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b30f9367-caf8-4bd1-94b8-fb7546c2e366")
+		(uuid "ae89c5e2-b89a-4257-9521-4bc51bacaec7")
 	)
 	(wire
 		(pts
-			(xy 160.02 87.63) (xy 149.86 87.63)
+			(xy 92.71 107.95) (xy 95.25 107.95)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b5851de2-b8f4-4bf3-b2ca-e8129b088a7f")
+		(uuid "b0a2b46e-cd48-4247-95da-ff1e923ac84f")
 	)
 	(wire
 		(pts
-			(xy 44.45 85.09) (xy 44.45 87.63)
+			(xy 147.32 62.23) (xy 223.52 62.23)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b6102d41-35d3-4e79-aea5-cd10dc5872c7")
+		(uuid "b398e6a8-b7d3-47bc-8541-b4c6dad0d4f0")
 	)
 	(wire
 		(pts
-			(xy 198.12 83.82) (xy 175.26 83.82)
+			(xy 231.14 96.52) (xy 220.98 96.52)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b62daae3-f1c8-496b-a6a0-91393337ec39")
+		(uuid "b4a4f3c9-70c4-4f0e-a2a1-cd1ace9fd809")
 	)
 	(wire
 		(pts
-			(xy 210.82 86.36) (xy 210.82 109.22)
+			(xy 95.25 118.11) (xy 95.25 123.19)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b9023484-2090-4cce-bca3-cacb920a1486")
+		(uuid "b5559b51-9d5a-42fe-9314-5cb6081d0cb0")
 	)
 	(wire
 		(pts
-			(xy 149.86 87.63) (xy 149.86 140.97)
+			(xy 64.77 147.32) (xy 27.94 147.32)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "bd0a41f0-498b-40a1-b4b7-99bd7b3838f3")
+		(uuid "b718176d-9a93-4b70-bf6c-974fa39bb0a3")
 	)
 	(wire
 		(pts
-			(xy 181.61 96.52) (xy 181.61 110.49)
+			(xy 74.93 72.39) (xy 83.7359 72.39)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "be391025-571c-40d3-afaa-16e33cc51e69")
+		(uuid "b769194a-4c08-4cbe-a278-d14284f0923a")
 	)
 	(wire
 		(pts
-			(xy 198.12 88.9) (xy 177.8 88.9)
+			(xy 151.13 132.08) (xy 151.13 118.11)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c15cc965-bb47-4e2a-b803-be8978d875c3")
+		(uuid "b7ab9dbb-3c91-4f4f-9c6a-37f521f28ad8")
 	)
 	(wire
 		(pts
-			(xy 43.18 90.17) (xy 133.35 90.17)
+			(xy 144.78 105.41) (xy 143.51 105.41)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c430abb0-9460-4fb8-80ee-24e1bac2d360")
+		(uuid "b7bd10c4-2bd6-4536-a1f7-f4e40d66580c")
 	)
 	(wire
 		(pts
-			(xy 95.25 102.87) (xy 97.79 102.87)
+			(xy 195.58 106.68) (xy 181.61 106.68)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c621bb71-18c0-48b0-919a-5b3897e108d3")
+		(uuid "b8200e1f-324f-4532-9577-b93f7e73ebf8")
 	)
 	(wire
 		(pts
-			(xy 176.53 86.36) (xy 176.53 90.17)
+			(xy 92.71 102.87) (xy 130.81 102.87)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c7f2a8d5-f693-4792-bdd6-8985ea68b0c6")
+		(uuid "b8540512-eae1-411a-a3e8-c2fd9ca50627")
 	)
 	(wire
 		(pts
-			(xy 106.68 120.65) (xy 106.68 132.08)
+			(xy 81.28 97.79) (xy 109.22 97.79)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c81cadfb-e4b5-4ccd-9c71-14cc52539076")
+		(uuid "bba08e1d-1d85-441e-8553-0e4237135a94")
 	)
 	(wire
 		(pts
-			(xy 163.83 134.62) (xy 163.83 146.05)
+			(xy 147.32 72.39) (xy 147.32 62.23)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c8c3bcea-4132-46e5-a000-9bcc9c43a080")
+		(uuid "bcf6d365-1fb7-4e7a-b5dc-c1a8854bebda")
 	)
 	(wire
 		(pts
-			(xy 50.8 123.19) (xy 40.64 123.19)
+			(xy 147.32 92.71) (xy 143.51 92.71)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c9b60d50-1cc1-406a-be10-09eae6f4cf54")
+		(uuid "bd45ef8a-1473-4121-a803-ac89e6148f50")
 	)
 	(wire
 		(pts
-			(xy 163.83 146.05) (xy 177.8 146.05)
+			(xy 96.52 123.19) (xy 96.52 125.73)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ca6c0941-3e6e-42ca-b59c-620544602aa3")
+		(uuid "be24f40b-b914-48fe-9ca2-be6ea50497c6")
 	)
 	(wire
 		(pts
-			(xy 133.35 100.33) (xy 116.84 100.33)
+			(xy 153.67 134.62) (xy 153.67 113.03)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "cd0e239e-3c2c-4e75-9953-b96027063b36")
+		(uuid "beba70df-646b-40f1-a3e0-4231f3dee0b2")
 	)
 	(wire
 		(pts
-			(xy 177.8 76.2) (xy 177.8 69.85)
+			(xy 93.98 120.65) (xy 73.66 120.65)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "cd514a5f-4544-41fa-8994-f28631b9bf75")
+		(uuid "c15780b2-d389-43cf-9cbb-516bf475426d")
 	)
 	(wire
 		(pts
-			(xy 99.06 118.11) (xy 99.06 120.65)
+			(xy 195.58 81.28) (xy 175.26 81.28)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ce2281bd-b873-470a-a1c2-f422f9344f23")
+		(uuid "c163aef9-80ff-4a45-b379-e03789cfb6d9")
 	)
 	(wire
 		(pts
-			(xy 157.48 82.55) (xy 157.48 48.26)
+			(xy 33.02 142.24) (xy 72.39 142.24)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "cf4b443e-2a88-4dee-b156-fc0907745484")
+		(uuid "c2f807d6-2979-48df-aef7-7b5c4c547342")
 	)
 	(wire
 		(pts
-			(xy 236.22 45.72) (xy 160.02 45.72)
+			(xy 104.14 125.73) (xy 104.14 137.16)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "cfd8f453-d7c4-40a3-bb28-729511cfcc83")
+		(uuid "c356257f-2de9-4695-8cbc-4d84f7f1b359")
 	)
 	(wire
 		(pts
-			(xy 146.05 82.55) (xy 157.48 82.55)
+			(xy 41.91 90.17) (xy 41.91 92.71)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d03ef312-e0af-48c6-a824-119d832a2dd1")
+		(uuid "c5962aaf-0cdc-4a43-8827-f7112f1f7229")
 	)
 	(wire
 		(pts
-			(xy 63.5 144.78) (xy 27.94 144.78)
+			(xy 95.25 107.95) (xy 130.81 107.95)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d064ab4e-8a65-485a-a905-4472ff41388c")
+		(uuid "c64feae2-4719-42ad-b651-7def6eebfc46")
 	)
 	(wire
 		(pts
-			(xy 179.07 73.66) (xy 179.07 64.77)
+			(xy 106.68 120.65) (xy 106.68 139.7)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d6437436-d1c2-4c50-9f71-d206711fb4b0")
+		(uuid "ca588b10-d27f-466c-b4cf-c61c146a8ec3")
 	)
 	(wire
 		(pts
-			(xy 238.76 86.36) (xy 238.76 43.18)
+			(xy 173.99 91.44) (xy 173.99 95.25)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d7019ecf-054a-4ed2-a525-ea06f00bc6d9")
+		(uuid "ca64172f-3821-4545-8a38-aed6fdde4db5")
 	)
 	(wire
 		(pts
-			(xy 133.35 82.55) (xy 101.6 82.55)
+			(xy 49.53 64.77) (xy 130.81 64.77)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d80915d4-0168-4cae-8446-5c110baee2c7")
+		(uuid "cb03b399-fecd-4cf4-924e-f9ee47421a6f")
 	)
 	(wire
 		(pts
-			(xy 100.33 113.03) (xy 133.35 113.03)
+			(xy 80.01 110.49) (xy 73.66 110.49)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d880417c-48ec-407a-b040-2b6190da3254")
+		(uuid "cd735b11-1d96-427e-99b0-24fcc39c8249")
 	)
 	(wire
 		(pts
-			(xy 179.07 64.77) (xy 146.05 64.77)
+			(xy 233.68 88.9) (xy 233.68 50.8)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d90ed178-5d10-4147-9f6c-7185ba1504cc")
+		(uuid "ce4e7e6f-df13-411e-a564-f71a5be21257")
 	)
 	(wire
 		(pts
-			(xy 96.52 115.57) (xy 76.2 115.57)
+			(xy 30.48 120.65) (xy 48.26 120.65)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d9d0a50f-81e9-43c7-973f-29af3d5cf8e2")
+		(uuid "d0571516-f933-4b6f-bc5c-443487a683e0")
 	)
 	(wire
 		(pts
-			(xy 93.98 97.79) (xy 95.25 97.79)
+			(xy 177.8 110.49) (xy 177.8 99.06)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "dfb71662-10be-4d3d-bbd2-5082dcdc53d4")
+		(uuid "d3ed9057-198e-4943-9fc7-7671305e57bb")
 	)
 	(wire
 		(pts
-			(xy 223.52 93.98) (xy 231.14 93.98)
+			(xy 45.72 102.87) (xy 48.26 102.87)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e0ac13dd-30de-4583-9476-c337909adcf4")
+		(uuid "d4686f1b-1f3e-4d0b-b2fe-7b354d5ddb69")
 	)
 	(wire
 		(pts
-			(xy 177.8 88.9) (xy 177.8 95.25)
+			(xy 228.6 55.88) (xy 152.4 55.88)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e140e731-8a79-4db7-9ccb-e19b5f8dfa95")
+		(uuid "d51bb53c-8a74-40d2-a22b-0c2452c5bb75")
 	)
 	(wire
 		(pts
-			(xy 184.15 101.6) (xy 184.15 120.65)
+			(xy 38.1 137.16) (xy 80.01 137.16)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e1627fc6-5525-46fc-896c-a024a909b0f0")
+		(uuid "d52e0209-018a-4945-b003-65a5f2b43b3d")
 	)
 	(wire
 		(pts
-			(xy 43.18 107.95) (xy 50.8 107.95)
+			(xy 158.75 139.7) (xy 158.75 102.87)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e222130a-8272-4e77-9323-ae4a781ce780")
+		(uuid "d6d94d9d-2552-406c-ae3b-f3eeda9dca3b")
 	)
 	(wire
 		(pts
-			(xy 59.69 74.93) (xy 133.35 74.93)
+			(xy 233.68 50.8) (xy 157.48 50.8)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e2c368d8-f389-4b6e-8578-8c902c8e86c7")
+		(uuid "d7ea9b56-65df-4395-a01d-1d967dc82956")
 	)
 	(wire
 		(pts
-			(xy 43.18 90.17) (xy 43.18 96.52)
+			(xy 130.81 120.65) (xy 106.68 120.65)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e2c9ffbd-2b75-4f90-a0a8-0837633a27c1")
+		(uuid "d92a54ee-0977-49d3-aa88-bccccc908811")
 	)
 	(wire
 		(pts
-			(xy 48.26 97.79) (xy 50.8 97.79)
+			(xy 104.14 125.73) (xy 130.81 125.73)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e3f8d274-5212-4f0f-926c-28ffe7628c19")
+		(uuid "da775041-e867-48ce-acd7-585c229d5ddd")
 	)
 	(wire
 		(pts
-			(xy 30.48 113.03) (xy 50.8 113.03)
+			(xy 78.74 87.63) (xy 78.74 107.95)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e46256e6-3966-4706-8c8f-cc501e5c727d")
+		(uuid "dc680650-cdf7-4c5d-94ea-67d28aba5e17")
 	)
 	(wire
 		(pts
-			(xy 149.86 57.15) (xy 226.06 57.15)
+			(xy 95.25 118.11) (xy 97.79 118.11)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e5273239-d2b2-4b7c-b670-963059d3fd4a")
+		(uuid "deae682c-dd3c-4b6a-b85b-b2cea508f5b2")
 	)
 	(wire
 		(pts
-			(xy 156.21 129.54) (xy 156.21 107.95)
+			(xy 35.56 139.7) (xy 76.2 139.7)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e5bbd0e8-7a78-47f6-a371-2b781d9327df")
+		(uuid "df64248d-ab6b-448d-885e-ae67e92f7a16")
 	)
 	(wire
 		(pts
-			(xy 46.99 74.93) (xy 59.69 74.93)
+			(xy 176.53 105.41) (xy 144.78 105.41)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e623e176-88cc-45bc-b2b6-7d9563aab51a")
+		(uuid "e3e57db3-1d2e-49cb-b025-8b3bf1ec5afa")
 	)
 	(wire
 		(pts
-			(xy 111.76 92.71) (xy 133.35 92.71)
+			(xy 153.67 134.62) (xy 228.6 134.62)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e84fc5f5-8e4a-40a8-b530-1d5ccc647f16")
+		(uuid "e3ee2185-d934-48aa-be30-7caa7ebe40c4")
 	)
 	(wire
 		(pts
-			(xy 233.68 81.28) (xy 223.52 81.28)
+			(xy 173.99 83.82) (xy 173.99 80.01)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e971c778-2ca4-42f0-8238-88c693f5922e")
+		(uuid "e4196b21-26e4-4c16-bb0f-9a88b2e31390")
 	)
 	(wire
 		(pts
-			(xy 109.22 134.62) (xy 78.74 134.62)
+			(xy 96.52 113.03) (xy 130.81 113.03)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "eda8b89d-7962-43c7-9ea1-5ee804ebd09f")
+		(uuid "e43480a2-dc2c-4154-95c3-775cb4371325")
 	)
 	(wire
 		(pts
-			(xy 180.34 71.12) (xy 198.12 71.12)
+			(xy 143.51 118.11) (xy 151.13 118.11)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "edf26fcf-4532-4298-91ba-2dafeab65193")
+		(uuid "e5aa9e3d-1892-4fbd-8042-a8df5ab8219c")
 	)
 	(wire
 		(pts
-			(xy 64.77 85.09) (xy 133.35 85.09)
+			(xy 59.69 85.09) (xy 130.81 85.09)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ee44efde-b32a-42ae-93ee-38874cf9c6cb")
+		(uuid "e5ce3975-dae9-4694-b8e1-c3c6d3211cfc")
 	)
 	(wire
 		(pts
-			(xy 63.5 83.82) (xy 63.5 85.09)
+			(xy 78.74 107.95) (xy 73.66 107.95)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ee49c368-9f63-4671-b660-716251765cbb")
+		(uuid "e8de5a56-ca02-4c3a-80c5-b977fac7ed60")
 	)
 	(wire
 		(pts
-			(xy 80.01 100.33) (xy 80.01 77.47)
+			(xy 177.8 76.2) (xy 195.58 76.2)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "eea8d6ec-ba67-4776-8a48-aed89c7539c6")
+		(uuid "e98ee6bd-776f-4604-9e98-78736fa03861")
 	)
 	(wire
 		(pts
-			(xy 50.8 92.71) (xy 50.8 59.69)
+			(xy 35.56 125.73) (xy 48.26 125.73)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f2251044-b91f-45f3-8bb9-1ea2edba9e9f")
+		(uuid "eb5342ef-919f-440b-bbfd-80d8e3060354")
 	)
 	(wire
 		(pts
-			(xy 233.68 48.26) (xy 233.68 81.28)
+			(xy 109.22 115.57) (xy 130.81 115.57)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f2bef4f7-80ca-4453-85b8-87a2bd407fdc")
+		(uuid "ec787dbb-6746-46f7-ba72-e640c34444ea")
 	)
 	(wire
 		(pts
-			(xy 228.6 76.2) (xy 223.52 76.2)
+			(xy 41.91 90.17) (xy 57.15 90.17)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f2cbcb60-b434-4328-8236-bb592701d8d3")
+		(uuid "ed369951-10a5-4fef-b2c1-fb22bfc9f1aa")
 	)
 	(wire
 		(pts
-			(xy 77.47 95.25) (xy 77.47 67.31)
+			(xy 48.26 128.27) (xy 38.1 128.27)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f45c96f5-99e4-4e94-a63a-c194720f17e2")
+		(uuid "edadb0d4-f13e-4980-bbae-d27d619d39a2")
 	)
 	(wire
 		(pts
-			(xy 226.06 99.06) (xy 223.52 99.06)
+			(xy 143.51 67.31) (xy 220.98 67.31)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f72c805f-7301-4e26-ac66-ffc6439d8e7c")
+		(uuid "f4d46a23-16dd-4909-a672-1db124a64db8")
 	)
 	(wire
 		(pts
-			(xy 148.59 92.71) (xy 162.56 92.71)
+			(xy 57.15 88.9) (xy 57.15 90.17)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "fa11a939-5f1a-40f7-9c02-8cdaaf321b81")
+		(uuid "f59820ed-bf93-4746-9856-2d63f33d95bd")
 	)
 	(wire
 		(pts
-			(xy 228.6 54.61) (xy 228.6 76.2)
+			(xy 143.51 120.65) (xy 180.34 120.65)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "fc5298f5-cd61-4dcd-9b0b-e903b6ab6a60")
+		(uuid "f63e9089-6843-49f3-a192-833c22217e2d")
 	)
 	(wire
 		(pts
-			(xy 33.02 115.57) (xy 50.8 115.57)
+			(xy 149.86 59.69) (xy 226.06 59.69)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "fcfc92ab-2449-4ded-be80-20f5ba538805")
+		(uuid "f87efdfd-4700-4a30-89a9-a5b55eed784c")
 	)
 	(wire
 		(pts
-			(xy 63.5 83.82) (xy 64.77 83.82)
+			(xy 143.51 87.63) (xy 154.94 87.63)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "fd8badd1-c5e9-4517-8aa8-6224f5722ae6")
+		(uuid "f88bfe9c-b834-4585-a138-83f693f57191")
 	)
 	(wire
 		(pts
-			(xy 81.28 102.87) (xy 76.2 102.87)
+			(xy 38.1 128.27) (xy 38.1 137.16)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ff6122d3-2c02-4e1a-a692-c43ba65ac3a1")
+		(uuid "f9f825f2-0cc2-4bb7-88e3-d29f904e5f17")
 	)
 	(wire
 		(pts
-			(xy 231.14 50.8) (xy 154.94 50.8)
+			(xy 195.58 78.74) (xy 176.53 78.74)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ffe43f27-8849-446a-9059-9c0ed8e39976")
+		(uuid "fea5bdcf-f005-4d1f-9154-cf750637c725")
 	)
 	(symbol
 		(lib_id "Omidivers:PT_trad_1.0mm")
-		(at 52.07 57.15 90)
+		(at 104.14 90.17 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "0bf2e0d9-0fd7-4f3d-be86-6dd9a848deab")
-		(property "Reference" "Terre1"
-			(at 54.61 55.8799 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "Pt_trad_1.0mm"
-			(at 54.61 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Omidivers:Pt_trad_1.0mm"
-			(at 54.356 55.626 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 54.61 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 52.07 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Fabriquant" ""
-			(at 54.61 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Fabreference" ""
-			(at 54.61 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Omicron" ""
-			(at 54.61 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Distributeur1" ""
-			(at 54.61 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Distributeur2" ""
-			(at 54.61 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "14fd41f5-ef93-415e-867d-d03e9171f965")
-		)
-		(instances
-			(project "carte switch 4 voies LI600"
-				(path "/293448fd-875c-455a-a74a-c679ba3631df"
-					(reference "Terre1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Omidivers:PT_trad_1.0mm")
-		(at 91.44 69.85 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "109c2c97-1e69-4a2b-bbe8-0ebed3465049")
-		(property "Reference" "IDC-1+IFC-1"
-			(at 93.98 68.5799 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "PT_cms_1.0mm"
-			(at 93.98 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Omidivers:Pt_trad_1.0mm"
-			(at 93.726 68.326 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 93.98 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 91.44 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Fabriquant" ""
-			(at 93.98 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Fabreference" ""
-			(at 93.98 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Omicron" ""
-			(at 93.98 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Distributeur1" ""
-			(at 93.98 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Distributeur2" ""
-			(at 93.98 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "5d9bbd43-3412-4f41-b42d-8b9f7bef6e87")
-		)
-		(instances
-			(project "carte switch 4 voies LI600"
-				(path "/293448fd-875c-455a-a74a-c679ba3631df"
-					(reference "IDC-1+IFC-1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Omidivers:PT_trad_1.0mm")
-		(at 41.91 87.63 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "1ad106d6-c680-40f9-af18-71a50fd4191f")
-		(property "Reference" "GNDMoteur2"
-			(at 37.084 90.17 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "PT_cms_1.0mm"
-			(at 46.99 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Omidivers:Pt_trad_1.0mm"
-			(at 40.386 85.344 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 41.91 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 41.91 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Fabriquant" ""
-			(at 41.91 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Fabreference" ""
-			(at 41.91 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Omicron" ""
-			(at 40.64 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Distributeur1" ""
-			(at 41.91 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Distributeur2" ""
-			(at 41.91 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "00c33805-0c90-4f21-9f71-3beecc020ebd")
-		)
-		(instances
-			(project "carte switch 4 voies LI600"
-				(path "/293448fd-875c-455a-a74a-c679ba3631df"
-					(reference "GNDMoteur2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Omidivers:PT_trad_1.0mm")
-		(at 40.64 96.52 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "2aa99179-9037-4992-9345-e08456655ebb")
-		(property "Reference" "GNDMoteur1"
-			(at 36.576 104.902 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "PT_cms_1.0mm"
-			(at 45.72 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Omidivers:Pt_trad_1.0mm"
-			(at 39.116 94.234 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 40.64 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 40.64 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Fabriquant" ""
-			(at 40.64 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Fabreference" ""
-			(at 40.64 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Omicron" ""
-			(at 39.37 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Distributeur1" ""
-			(at 40.64 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Distributeur2" ""
-			(at 40.64 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "db72522f-f171-4656-b29b-2c5d0a00b2f6")
-		)
-		(instances
-			(project "carte switch 4 voies LI600"
-				(path "/293448fd-875c-455a-a74a-c679ba3631df"
-					(reference "GNDMoteur1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Omiconnecteur:sub_D_25")
-		(at 210.82 63.5 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3486c44a-4f17-4bfa-9aff-ec9d9d742519")
-		(property "Reference" "J2"
-			(at 213.8365 63.5 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "sub_D_25"
-			(at 213.8365 66.04 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Omiconnecteur:sub_D_25"
-			(at 120.98 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://docs.rs-online.com/61e0/0900766b815846f2.pdf"
-			(at 20.98 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "25way rightangle ground socket connector"
-			(at 186.944 81.788 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "12.93"
-			(at -179.02 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "RS Pro"
-			(at -279.02 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "5443991"
-			(at -379.02 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" ""
-			(at -479.02 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" ""
-			(at -579.02 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Part Number" ""
-			(at -679.02 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Price/Stock" ""
-			(at -779.02 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "19"
-			(uuid "7e767e88-2fbf-4e82-bf78-06b0fe52278d")
-		)
-		(pin "7"
-			(uuid "615a6312-8de5-4dc0-a2c3-a128e66ef289")
-		)
-		(pin "8"
-			(uuid "7ad284ec-bce8-405b-bc3a-eff538fbe3b7")
-		)
-		(pin "17"
-			(uuid "2d44874d-5c8a-47dc-ad69-09097f640873")
-		)
-		(pin "13"
-			(uuid "666004ce-887f-4e6b-8265-7e5a67ee8b9d")
-		)
-		(pin "18"
-			(uuid "13d59648-4820-4aca-91cc-6538ba625e51")
-		)
-		(pin "1"
-			(uuid "218550ae-212f-4e5f-88a8-a624259f38dd")
-		)
-		(pin "26"
-			(uuid "3d4ee8b6-3278-4141-a074-a38e968a2fd6")
-		)
-		(pin "23"
-			(uuid "0fe80897-37b9-46b1-9980-7551ece9c84a")
-		)
-		(pin "9"
-			(uuid "53a6871b-c61b-47cd-9613-d2fd7a013f7e")
-		)
-		(pin "5"
-			(uuid "8ef5548d-e52e-4adc-9e26-38d3e3c26072")
-		)
-		(pin "2"
-			(uuid "559e467c-c160-4d87-831b-51aa507dbdcb")
-		)
-		(pin "24"
-			(uuid "f3a09c19-8fbf-4830-a2e7-db0e4d7a30e5")
-		)
-		(pin "11"
-			(uuid "6110388d-4694-41f4-a8e1-bf2672f75c84")
-		)
-		(pin "14"
-			(uuid "19432240-5c69-43f4-b8f1-ee0388fc5bb3")
-		)
-		(pin "10"
-			(uuid "2b830b6f-b789-4299-befa-e7647f5cf393")
-		)
-		(pin "16"
-			(uuid "b79898a7-abea-4aa5-8a32-87a96760fe85")
-		)
-		(pin "15"
-			(uuid "3c0f4ccc-7b81-452e-a1e6-98dd149cb61b")
-		)
-		(pin "20"
-			(uuid "b64955ff-3d57-4896-9776-9a52227dedde")
-		)
-		(pin "21"
-			(uuid "640d2231-a2aa-4eab-b3d6-d5920818e2d8")
-		)
-		(pin "22"
-			(uuid "6ed43c2f-0b31-4890-b64b-f6ff451b8d57")
-		)
-		(pin "12"
-			(uuid "e59d8202-7a61-4cbf-a2db-5baddd8f2d26")
-		)
-		(pin "25"
-			(uuid "6f4e162b-d65a-480b-a9fc-78392dd1c252")
-		)
-		(pin "27"
-			(uuid "136c7604-ce30-40d2-b27d-d849ecac81c7")
-		)
-		(pin "3"
-			(uuid "3d482912-ec34-4428-ac72-844d42675e93")
-		)
-		(pin "4"
-			(uuid "5e9890ee-39d9-49ae-a36e-5bc797080f03")
-		)
-		(pin "6"
-			(uuid "815b10e0-6cc4-4508-996e-bf98357a7581")
-		)
-		(instances
-			(project "carte switch 4 voies LI600"
-				(path "/293448fd-875c-455a-a74a-c679ba3631df"
-					(reference "J2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Omiconnecteur:Conn_02x25_Odd_Even_omi")
-		(at 138.43 118.11 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3a98eb80-c2ec-478c-a09b-58e7f54c8edb")
-		(property "Reference" "J3"
-			(at 139.7 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Conn_02x25_Odd_Even"
-			(at 139.7 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Omiconnecteur:PinHeader_2x25_P2.54mm_V_omi"
-			(at 139.7 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 138.43 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, double row, 02x10, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 146.304 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Documentation" "https://cdn.amphenol-cs.com/media/wysiwyg/files/documentation/datasheet/boardwiretoboard/bwb_bergstik.pdf"
-			(at 137.16 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Fabriquant" "Amphenol"
-			(at 140.97 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Fabreference" "77313-118-72LF"
-			(at 139.7 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Omicron" "252175"
-			(at 141.478 140.208 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Distributeur1" "F:2886108"
-			(at 139.7 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Distributeur2" "M:649-77313-118-72LF"
-			(at 139.7 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "8764737f-6369-41fa-bfe2-0671d79f41a3")
-		)
-		(pin "10"
-			(uuid "352ae775-7946-4e0f-b214-2a3a46bbe458")
-		)
-		(pin "44"
-			(uuid "86510a19-91ae-4a06-bea4-93bb730009da")
-		)
-		(pin "16"
-			(uuid "422e3710-4474-4865-9a59-739ca172f434")
-		)
-		(pin "28"
-			(uuid "d466b314-985d-4bfc-a51e-b6a6ec1979f0")
-		)
-		(pin "4"
-			(uuid "c28009d3-0ae7-41f5-84f4-eadf987b3acf")
-		)
-		(pin "7"
-			(uuid "15b16fd2-4d07-4e90-95b3-2e8cfd95531f")
-		)
-		(pin "32"
-			(uuid "98f23888-54ad-405b-bab3-4adad5c3ab10")
-		)
-		(pin "41"
-			(uuid "b732302a-d335-4f6e-b3d8-c79577c577ac")
-		)
-		(pin "18"
-			(uuid "b5adcb01-bbb6-42ea-91d0-e19d3ec4cdcd")
-		)
-		(pin "27"
-			(uuid "ad6fd547-0a2a-4e85-b333-edfc39466c2b")
-		)
-		(pin "2"
-			(uuid "19c0d1d7-c202-4cab-937f-674a913dc31e")
-		)
-		(pin "45"
-			(uuid "8c264fac-4c6a-4cc1-a45a-c2364b087969")
-		)
-		(pin "48"
-			(uuid "030ca685-ee80-42f8-b94e-42b947a5776d")
-		)
-		(pin "30"
-			(uuid "276b1019-06b6-40c9-a204-279aecc10d2e")
-		)
-		(pin "31"
-			(uuid "90ffe40f-b49b-4caa-babd-9baad561eda4")
-		)
-		(pin "5"
-			(uuid "8b2dfb50-9f98-4890-ac00-b6279aae9ffe")
-		)
-		(pin "50"
-			(uuid "3e73242c-4b69-4935-8c1b-cd6c045500e7")
-		)
-		(pin "36"
-			(uuid "00e687b4-5315-4f7e-bdbd-a36a0b66a21f")
-		)
-		(pin "19"
-			(uuid "131a6b60-8392-43e8-bf60-426914260e91")
-		)
-		(pin "13"
-			(uuid "494c36f9-9615-4b77-be0f-924e2934b258")
-		)
-		(pin "42"
-			(uuid "af8c7c2d-9267-4037-8c80-baa7a2526905")
-		)
-		(pin "43"
-			(uuid "c37673fa-d8e7-4978-bff9-b5c24118d70b")
-		)
-		(pin "40"
-			(uuid "d5093433-5b5f-4e4d-a4df-331581c088be")
-		)
-		(pin "37"
-			(uuid "215f48f0-d94e-45d5-9fdc-96a785340849")
-		)
-		(pin "14"
-			(uuid "08972275-960d-4576-838b-04b65c0304f1")
-		)
-		(pin "17"
-			(uuid "09287842-8433-4970-8a99-73098d1a12c6")
-		)
-		(pin "25"
-			(uuid "e44fc4b5-a85b-431e-99be-644651427d47")
-		)
-		(pin "20"
-			(uuid "91d7a941-5e02-42b0-9e96-0ccedebfc1fa")
-		)
-		(pin "15"
-			(uuid "c244b27b-e058-4e8d-b301-fdbdc97af779")
-		)
-		(pin "21"
-			(uuid "f111961c-9afd-4fc2-9906-cbc92107aa8d")
-		)
-		(pin "33"
-			(uuid "0b028834-1858-4ea5-b805-7e97abbd3955")
-		)
-		(pin "39"
-			(uuid "b3519456-571d-4588-9954-f20ba355eca2")
-		)
-		(pin "24"
-			(uuid "db0d2f03-09d5-4038-896c-5998588b3940")
-		)
-		(pin "26"
-			(uuid "3239b103-ccff-4139-af8c-dea2a03571bb")
-		)
-		(pin "23"
-			(uuid "510d87f6-5af3-43cf-bc7c-db302c9fd436")
-		)
-		(pin "38"
-			(uuid "ae4330f5-4640-4a78-aced-27155f741160")
-		)
-		(pin "1"
-			(uuid "0e78cd1a-d0b2-444c-9a05-8d1f960ad2ba")
-		)
-		(pin "12"
-			(uuid "3683c844-9b2b-494a-a6d5-b8decc8f3660")
-		)
-		(pin "11"
-			(uuid "4b3c66d6-ba62-4a25-a60f-de697501f2f2")
-		)
-		(pin "22"
-			(uuid "611eac96-cfae-4155-b12a-4f27bd660e4e")
-		)
-		(pin "29"
-			(uuid "3b212abd-2b37-4591-b5ad-ed5fe88eca6a")
-		)
-		(pin "34"
-			(uuid "caaf95be-246a-43a4-b695-39ec596d3fc0")
-		)
-		(pin "35"
-			(uuid "66440111-3a3c-4bde-951e-548b6f6ee39c")
-		)
-		(pin "46"
-			(uuid "2321fe48-6d52-4658-9a70-52f4e2136dc5")
-		)
-		(pin "47"
-			(uuid "be7e33de-a6cc-4460-8f9e-c493571ddbae")
-		)
-		(pin "49"
-			(uuid "21e7b916-94fc-43aa-8fc9-abe0ade6c624")
-		)
-		(pin "6"
-			(uuid "53ede6fa-fa79-46b0-a258-4f8e86ccb0cf")
-		)
-		(pin "8"
-			(uuid "1a89aacc-2085-466d-be79-98dbdf2e5f96")
-		)
-		(pin "9"
-			(uuid "223e8a85-2d6a-4cc6-816d-b304ac96de69")
-		)
-		(instances
-			(project ""
-				(path "/293448fd-875c-455a-a74a-c679ba3631df"
-					(reference "J3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Omidivers:PT_trad_1.0mm")
-		(at 96.52 74.93 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3b8b21e4-be8d-4563-94ab-956d5689a81f")
-		(property "Reference" "GNDLASER1"
-			(at 99.06 73.6599 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "PT_cms_1.0mm"
-			(at 99.06 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Omidivers:Pt_trad_1.0mm"
-			(at 98.806 73.406 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 99.06 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 96.52 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Fabriquant" ""
-			(at 99.06 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Fabreference" ""
-			(at 99.06 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Omicron" ""
-			(at 99.06 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Distributeur1" ""
-			(at 99.06 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Distributeur2" ""
-			(at 99.06 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c0cd3859-b6f4-4f7c-8fc6-f41e9bc29ac6")
-		)
-		(instances
-			(project "carte switch 4 voies LI600"
-				(path "/293448fd-875c-455a-a74a-c679ba3631df"
-					(reference "GNDLASER1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Omidivers:PT_trad_1.0mm")
-		(at 59.69 72.39 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "46be58dd-54e8-49dd-a122-b808623c8823")
-		(property "Reference" "VMoteur2"
-			(at 62.23 71.1199 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "PT_cms_1.0mm"
-			(at 62.23 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Omidivers:Pt_trad_1.0mm"
-			(at 61.976 70.866 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 62.23 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 59.69 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Fabriquant" ""
-			(at 62.23 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Fabreference" ""
-			(at 62.23 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Omicron" ""
-			(at 62.23 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Distributeur1" ""
-			(at 62.23 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Distributeur2" ""
-			(at 62.23 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "8d538652-65aa-47c7-967e-48b1ebcedda9")
-		)
-		(instances
-			(project "carte switch 4 voies LI600"
-				(path "/293448fd-875c-455a-a74a-c679ba3631df"
-					(reference "VMoteur2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Omidivers:PT_trad_1.0mm")
-		(at 106.68 85.09 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4fe5e2b2-ac5e-486d-88a3-0cda22bcb98a")
-		(property "Reference" "SwitchOptique2"
-			(at 109.22 83.8199 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "PT_cms_1.0mm"
-			(at 109.22 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Omidivers:Pt_trad_1.0mm"
-			(at 108.966 83.566 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 109.22 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 106.68 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Fabriquant" ""
-			(at 109.22 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Fabreference" ""
-			(at 109.22 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Omicron" ""
-			(at 109.22 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Distributeur1" ""
-			(at 109.22 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Distributeur2" ""
-			(at 109.22 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a073baa6-517f-4be1-bbf1-606b6cdce441")
-		)
-		(instances
-			(project "carte switch 4 voies LI600"
-				(path "/293448fd-875c-455a-a74a-c679ba3631df"
-					(reference "SwitchOptique2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Omidivers:PT_trad_1.0mm")
-		(at 54.61 62.23 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "50893a8f-c2d6-4792-933d-260cebbd31d1")
-		(property "Reference" "Terre2"
-			(at 57.15 60.9599 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "PT_cms_1.0mm"
-			(at 57.15 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Omidivers:Pt_trad_1.0mm"
-			(at 56.896 60.706 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 57.15 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 54.61 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Fabriquant" ""
-			(at 57.15 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Fabreference" ""
-			(at 57.15 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Omicron" ""
-			(at 57.15 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Distributeur1" ""
-			(at 57.15 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Distributeur2" ""
-			(at 57.15 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "40473389-744c-4b8c-a60f-2b2edb3f7b0c")
-		)
-		(instances
-			(project "carte switch 4 voies LI600"
-				(path "/293448fd-875c-455a-a74a-c679ba3631df"
-					(reference "Terre2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Omidivers:PT_trad_1.0mm")
-		(at 67.31 139.7 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "5a52e61b-85d5-45db-ab43-71cf1b6b267e")
+		(uuid "04a56640-28de-49d7-b3cc-11cf2ba12725")
 		(property "Reference" "SwitchOptique1"
-			(at 75.184 141.224 90)
+			(at 106.68 88.8999 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Value" "PT_cms_1.0mm"
-			(at 69.85 144.78 0)
+			(at 106.68 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6591,8 +5157,8 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Omidivers:Pt_trad_1.0mm"
-			(at 69.596 138.176 0)
+		(property "Footprint" "Omidivers:pas_trad_1mm"
+			(at 109.22 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6601,7 +5167,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 69.85 139.7 0)
+			(at 106.68 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6610,7 +5176,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 67.31 139.7 0)
+			(at 104.14 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6619,7 +5185,7 @@
 			)
 		)
 		(property "Fabriquant" ""
-			(at 69.85 139.7 0)
+			(at 106.68 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6628,7 +5194,7 @@
 			)
 		)
 		(property "Fabreference" ""
-			(at 69.85 139.7 0)
+			(at 106.68 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6637,7 +5203,7 @@
 			)
 		)
 		(property "Omicron" ""
-			(at 69.85 138.43 0)
+			(at 106.68 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6646,7 +5212,7 @@
 			)
 		)
 		(property "Distributeur1" ""
-			(at 69.85 139.7 0)
+			(at 106.68 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6655,7 +5221,7 @@
 			)
 		)
 		(property "Distributeur2" ""
-			(at 69.85 139.7 0)
+			(at 106.68 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6664,7 +5230,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "34f95c59-bd22-4c07-8711-dffd0f0973b8")
+			(uuid "9cf2017e-0b03-41cd-8630-571d0e09e09a")
 		)
 		(instances
 			(project "carte switch 4 voies LI600"
@@ -6677,15 +5243,15 @@
 	)
 	(symbol
 		(lib_id "Omidivers:PT_trad_1.0mm")
-		(at 63.5 142.24 90)
+		(at 96.52 115.57 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "73fc3007-8fc1-403e-84da-0f4325a3caf8")
-		(property "Reference" "GNDMoteur3"
-			(at 71.374 143.764 90)
+		(uuid "0acc6805-b9bd-4544-aa9a-a7bb4239638f")
+		(property "Reference" "TOPZEROREGLE1"
+			(at 106.172 115.57 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6693,7 +5259,7 @@
 			)
 		)
 		(property "Value" "PT_cms_1.0mm"
-			(at 66.04 147.32 0)
+			(at 93.98 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6703,7 +5269,7 @@
 			)
 		)
 		(property "Footprint" "Omidivers:Pt_trad_1.0mm"
-			(at 65.786 140.716 0)
+			(at 91.44 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6712,7 +5278,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 66.04 142.24 0)
+			(at 93.98 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6721,7 +5287,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 63.5 142.24 0)
+			(at 96.52 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6730,7 +5296,7 @@
 			)
 		)
 		(property "Fabriquant" ""
-			(at 66.04 142.24 0)
+			(at 93.98 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6739,7 +5305,7 @@
 			)
 		)
 		(property "Fabreference" ""
-			(at 66.04 142.24 0)
+			(at 93.98 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6748,7 +5314,7 @@
 			)
 		)
 		(property "Omicron" ""
-			(at 66.04 140.97 0)
+			(at 93.98 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6757,7 +5323,7 @@
 			)
 		)
 		(property "Distributeur1" ""
-			(at 66.04 142.24 0)
+			(at 93.98 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6766,7 +5332,7 @@
 			)
 		)
 		(property "Distributeur2" ""
-			(at 66.04 142.24 0)
+			(at 93.98 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6775,251 +5341,29 @@
 			)
 		)
 		(pin "1"
-			(uuid "2a7b9b88-a566-4175-b03e-841a50ce332a")
+			(uuid "5e86e1a2-09c4-402f-9fac-c085abb59834")
 		)
 		(instances
 			(project "carte switch 4 voies LI600"
 				(path "/293448fd-875c-455a-a74a-c679ba3631df"
-					(reference "GNDMoteur3")
+					(reference "TOPZEROREGLE1")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Omidivers:PT_trad_1.0mm")
-		(at 100.33 115.57 270)
+		(lib_id "Omiconnecteur:sub_D_25")
+		(at 208.28 68.58 90)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "8ffc0cd4-ab64-4d31-adf7-d4043e08a9b8")
-		(property "Reference" "B+REGLE1"
-			(at 106.68 115.062 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "PT_cms_1.0mm"
-			(at 97.79 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Omidivers:Pt_trad_1.0mm"
-			(at 98.044 117.094 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 97.79 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 100.33 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Fabriquant" ""
-			(at 97.79 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Fabreference" ""
-			(at 97.79 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Omicron" ""
-			(at 97.79 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Distributeur1" ""
-			(at 97.79 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Distributeur2" ""
-			(at 97.79 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "fcfa18d4-1555-46b8-b3c9-71f97de1ee03")
-		)
-		(instances
-			(project "carte switch 4 voies LI600"
-				(path "/293448fd-875c-455a-a74a-c679ba3631df"
-					(reference "B+REGLE1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Omidivers:PT_trad_1.0mm")
-		(at 82.55 129.54 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "910ec444-d016-426d-b13c-1a43315d94fe")
-		(property "Reference" "PT100Rouge2"
-			(at 89.662 130.81 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "PT_cms_1.0mm"
-			(at 85.09 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Omidivers:Pt_trad_1.0mm"
-			(at 84.836 128.016 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 85.09 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 82.55 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Fabriquant" ""
-			(at 85.09 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Fabreference" ""
-			(at 85.09 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Omicron" ""
-			(at 85.09 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Distributeur1" ""
-			(at 85.09 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Distributeur2" ""
-			(at 85.09 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "8c9c8643-776d-4045-869d-492b3504b7df")
-		)
-		(instances
-			(project "carte switch 4 voies LI600"
-				(path "/293448fd-875c-455a-a74a-c679ba3631df"
-					(reference "PT100Rouge2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Omidivers:PT_trad_1.0mm")
-		(at 86.2759 64.77 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9c6b373a-9bba-4ffd-ab69-6d605e4c0d8c")
-		(property "Reference" "IFC-1"
-			(at 88.9 63.4999 90)
+		(uuid "0c0df76b-63cd-4032-9f20-21988052fa7e")
+		(property "Reference" "J30"
+			(at 207.1939 114.3 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7027,8 +5371,17 @@
 				(justify right)
 			)
 		)
-		(property "Value" "PT_cms_1.0mm"
-			(at 88.8159 69.85 0)
+		(property "Value" "sub_D_25"
+			(at 207.1939 111.76 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Omiconnecteur:sub_D_25"
+			(at 200.66 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7037,109 +5390,8 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Omidivers:Pt_trad_1.0mm"
-			(at 88.5619 63.246 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 88.8159 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 86.2759 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Fabriquant" ""
-			(at 88.8159 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Fabreference" ""
-			(at 88.8159 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Omicron" ""
-			(at 88.8159 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Distributeur1" ""
-			(at 88.8159 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Distributeur2" ""
-			(at 88.8159 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "2f7bfdef-da5c-4699-8cc2-a8f15dfc2bbd")
-		)
-		(instances
-			(project "carte switch 4 voies LI600"
-				(path "/293448fd-875c-455a-a74a-c679ba3631df"
-					(reference "IFC-1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Omidivers:PT_trad_1.0mm")
-		(at 97.79 105.41 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "9dc60827-b056-491a-9c9f-8dec556cc352")
-		(property "Reference" "GNDREGLE1"
-			(at 103.886 104.902 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "PT_cms_1.0mm"
-			(at 95.25 100.33 0)
+		(property "Datasheet" "https://b2b.harting.com/files/download/PRD/PDF_DS/PDF_DS_09653227801_EN.pdf"
+			(at 203.2 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7148,209 +5400,171 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Omidivers:Pt_trad_1.0mm"
-			(at 95.504 106.934 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 95.25 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 97.79 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Fabriquant" ""
-			(at 95.25 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Fabreference" ""
-			(at 95.25 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Omicron" ""
-			(at 95.25 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Distributeur1" ""
-			(at 95.25 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Distributeur2" ""
-			(at 95.25 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "eb5c212f-87ce-40c1-8979-8441a15c338e")
-		)
-		(instances
-			(project "carte switch 4 voies LI600"
-				(path "/293448fd-875c-455a-a74a-c679ba3631df"
-					(reference "GNDREGLE1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Omiconnecteur:Conn_01x05_P2.54mm_pinheader_vertical")
-		(at 182.88 148.59 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a00c675e-acb3-4638-ba78-f983405cd154")
-		(property "Reference" "J4"
-			(at 185.42 146.0499 0)
+		(property "Description" "D-Sub 25pin male angled 2.54mm pitch, stamped, w/o board locks, M3, PL3"
+			(at 205.74 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
-		(property "Value" "Conn_01x05_P2.54mm_pinheader_vertical"
-			(at 184.15 153.67 0)
+		(property "Height" "12.5"
+			(at 208.28 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Omiconnecteur:PinHeader_1x05_P2.54mm_V_omi"
-			(at 184.15 153.67 0)
+		(property "Manufacturer_Name" "HARTING"
+			(at 210.82 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://cdn.amphenol-cs.com/media/wysiwyg/files/documentation/datasheet/boardwiretoboard/bwb_bergstik.pdf"
-			(at 184.15 153.67 0)
+		(property "Manufacturer_Part_Number" "09653227801"
+			(at 213.36 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 182.88 148.59 0)
+		(property "Mouser Part Number" "617-09653227801"
+			(at 215.9 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 				(hide yes)
 			)
 		)
-		(property "Fabriquant" "Amphenol"
-			(at 182.88 153.67 0)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/HARTING/09653227801?qs=Z2e%252BHPEhmSYpOM7BaVuC5A%3D%3D"
+			(at 218.44 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 				(hide yes)
 			)
 		)
-		(property "Fabreference" "77311-102-36LF"
-			(at 182.88 153.67 0)
+		(property "Arrow Part Number" "09653227801"
+			(at 220.98 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 				(hide yes)
 			)
 		)
-		(property "Omicron" "9069605"
-			(at 181.61 153.67 0)
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/09653227801/harting?region=nac"
+			(at 223.52 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 				(hide yes)
 			)
-		)
-		(property "Distributeur1" "DK:609-6203-ND"
-			(at 182.88 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Distributeur2" "M:77311-102-36LF"
-			(at 182.88 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "f5c2b37e-d1e2-4a37-86b7-35690c0d393c")
 		)
 		(pin "1"
-			(uuid "da34d086-2263-4c75-844a-ff4e4df6478b")
+			(uuid "10789649-f42c-452e-b5c3-26b145026cb0")
 		)
-		(pin "4"
-			(uuid "42f919f6-4b2f-4746-b6a3-16132f2bb3ea")
+		(pin "10"
+			(uuid "1d5a60f6-3d34-46ca-b5f1-96e7bb108e88")
+		)
+		(pin "11"
+			(uuid "17b313ec-fbf6-43fc-ad51-36300a8e33f8")
+		)
+		(pin "12"
+			(uuid "27ee083c-2525-4fae-a502-88f4a93c0a5d")
+		)
+		(pin "13"
+			(uuid "b607b1c8-652e-476c-8147-4b6b8031a1c1")
+		)
+		(pin "14"
+			(uuid "4187a47a-848b-4f33-a8c2-34df77ad00ad")
+		)
+		(pin "15"
+			(uuid "b3700f14-4201-4d37-8e4c-89ed07ba8c0a")
+		)
+		(pin "16"
+			(uuid "3b8791f6-f6f4-43ce-97aa-94375fcd36c6")
+		)
+		(pin "17"
+			(uuid "13758f25-1dc5-4cf7-bb1f-f1145fe22565")
+		)
+		(pin "18"
+			(uuid "6b6258ae-e446-4410-86f0-13ac1c9a6fd1")
+		)
+		(pin "19"
+			(uuid "05cbd9fc-245d-4f6d-a6da-b1f00b0e61f1")
 		)
 		(pin "2"
-			(uuid "c560f0d4-633a-48fd-89ca-913e63bdab5d")
+			(uuid "32424574-a5c3-4161-a0cf-12c9ed481d37")
+		)
+		(pin "20"
+			(uuid "dbec8d18-fde6-40df-8af7-8d91cdc0482a")
+		)
+		(pin "21"
+			(uuid "92cd7d82-b798-439a-8c46-e1f97d77ce7d")
+		)
+		(pin "22"
+			(uuid "aeb30b61-df12-48a7-b1e5-9c09edff6498")
+		)
+		(pin "23"
+			(uuid "34f305f6-3f3b-40b0-80dc-78ca10b5d9c7")
+		)
+		(pin "24"
+			(uuid "e21007a5-88bb-4f00-91e2-3844360f6679")
+		)
+		(pin "25"
+			(uuid "3a58d5d2-cacd-47ec-9d35-83f3c9cc04d8")
+		)
+		(pin "3"
+			(uuid "c6a91044-3cd2-40d8-a37c-91e79ebcc7e8")
+		)
+		(pin "4"
+			(uuid "a7dab55b-9c7c-4d95-85be-a15d813d6c6b")
 		)
 		(pin "5"
-			(uuid "6fe8cea6-71d8-48f0-abf0-fa4b755553ad")
+			(uuid "4bccb066-e3e9-415c-be49-fb99925510a7")
+		)
+		(pin "6"
+			(uuid "7f519b93-81e8-4b6f-b2b4-79d6df1f347b")
+		)
+		(pin "7"
+			(uuid "21d480f6-7d21-4c64-a52a-1d6e77ed1234")
+		)
+		(pin "8"
+			(uuid "cbc98c4a-7782-40f3-b8cf-c43f10f1ccef")
+		)
+		(pin "9"
+			(uuid "96f152cd-7152-4d91-8e43-d8b09a5ab559")
+		)
+		(pin "MH1"
+			(uuid "f2382937-4624-4a10-96bd-7256258507e2")
+		)
+		(pin "MH2"
+			(uuid "a82a182b-fd96-4a72-9bfa-ac19a67b5c35")
 		)
 		(instances
-			(project ""
+			(project "carte switch 4 voies LI600"
 				(path "/293448fd-875c-455a-a74a-c679ba3631df"
-					(reference "J4")
+					(reference "J30")
 					(unit 1)
 				)
 			)
@@ -7358,25 +5572,23 @@
 	)
 	(symbol
 		(lib_id "Omidivers:PT_trad_1.0mm")
-		(at 111.76 90.17 90)
+		(at 64.77 144.78 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ab991852-2f8e-4b8d-8b37-361eadf77804")
+		(uuid "0c8a0bfb-ffba-4405-87a9-b224e9bf154c")
 		(property "Reference" "SwitchOptique3"
-			(at 114.3 88.8999 90)
+			(at 72.644 146.304 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
 		(property "Value" "PT_cms_1.0mm"
-			(at 114.3 95.25 0)
+			(at 67.31 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7386,7 +5598,7 @@
 			)
 		)
 		(property "Footprint" "Omidivers:Pt_trad_1.0mm"
-			(at 114.046 88.646 0)
+			(at 69.85 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7395,7 +5607,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 114.3 90.17 0)
+			(at 67.31 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7404,7 +5616,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 111.76 90.17 0)
+			(at 64.77 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7413,7 +5625,7 @@
 			)
 		)
 		(property "Fabriquant" ""
-			(at 114.3 90.17 0)
+			(at 67.31 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7422,7 +5634,7 @@
 			)
 		)
 		(property "Fabreference" ""
-			(at 114.3 90.17 0)
+			(at 67.31 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7431,7 +5643,7 @@
 			)
 		)
 		(property "Omicron" ""
-			(at 114.3 88.9 0)
+			(at 67.31 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7440,7 +5652,7 @@
 			)
 		)
 		(property "Distributeur1" ""
-			(at 114.3 90.17 0)
+			(at 67.31 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7449,7 +5661,7 @@
 			)
 		)
 		(property "Distributeur2" ""
-			(at 114.3 90.17 0)
+			(at 67.31 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7458,7 +5670,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "1134576e-a4f1-43cf-bf88-99f4540e6f81")
+			(uuid "6df70854-2d1b-4927-8b62-a2680206ab33")
 		)
 		(instances
 			(project "carte switch 4 voies LI600"
@@ -7471,24 +5683,23 @@
 	)
 	(symbol
 		(lib_id "Omidivers:PT_trad_1.0mm")
-		(at 81.28 59.69 90)
+		(at 60.96 147.32 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "c2f20a7e-a08b-418a-b64a-c7ffe5d1a062")
-		(property "Reference" "IDC-1"
-			(at 84.074 58.166 90)
+		(uuid "0e06f1ea-20e5-4f46-bc78-a0694e4f19d0")
+		(property "Reference" "GNDMoteur3"
+			(at 68.834 148.844 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
 		(property "Value" "PT_cms_1.0mm"
-			(at 83.82 64.77 0)
+			(at 63.5 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7498,7 +5709,7 @@
 			)
 		)
 		(property "Footprint" "Omidivers:Pt_trad_1.0mm"
-			(at 83.566 58.166 0)
+			(at 66.04 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7507,7 +5718,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 83.82 59.69 0)
+			(at 63.5 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7516,7 +5727,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 81.28 59.69 0)
+			(at 60.96 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7525,7 +5736,7 @@
 			)
 		)
 		(property "Fabriquant" ""
-			(at 83.82 59.69 0)
+			(at 63.5 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7534,7 +5745,7 @@
 			)
 		)
 		(property "Fabreference" ""
-			(at 83.82 59.69 0)
+			(at 63.5 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7543,7 +5754,7 @@
 			)
 		)
 		(property "Omicron" ""
-			(at 83.82 58.42 0)
+			(at 63.5 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7552,7 +5763,7 @@
 			)
 		)
 		(property "Distributeur1" ""
-			(at 83.82 59.69 0)
+			(at 63.5 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7561,7 +5772,7 @@
 			)
 		)
 		(property "Distributeur2" ""
-			(at 83.82 59.69 0)
+			(at 63.5 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7570,12 +5781,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "58c4daa6-928e-42db-8571-142f4c00a5ef")
+			(uuid "4b2434ae-79af-45c4-92af-a268bb195590")
 		)
 		(instances
 			(project "carte switch 4 voies LI600"
 				(path "/293448fd-875c-455a-a74a-c679ba3631df"
-					(reference "IDC-1")
+					(reference "GNDMoteur3")
 					(unit 1)
 				)
 			)
@@ -7583,127 +5794,16 @@
 	)
 	(symbol
 		(lib_id "Omidivers:PT_trad_1.0mm")
-		(at 99.06 110.49 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "c3b3bacc-a3dc-4267-abad-ae970c1c9959")
-		(property "Reference" "TOPZEROREGLE1"
-			(at 108.712 110.49 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "PT_cms_1.0mm"
-			(at 96.52 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Omidivers:Pt_trad_1.0mm"
-			(at 96.774 112.014 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 96.52 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 99.06 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Fabriquant" ""
-			(at 96.52 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Fabreference" ""
-			(at 96.52 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Omicron" ""
-			(at 96.52 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Distributeur1" ""
-			(at 96.52 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Distributeur2" ""
-			(at 96.52 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "6bf4f229-a48b-4d71-a2da-3e255869e6cd")
-		)
-		(instances
-			(project "carte switch 4 voies LI600"
-				(path "/293448fd-875c-455a-a74a-c679ba3631df"
-					(reference "TOPZEROREGLE1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Omidivers:PT_trad_1.0mm")
-		(at 57.15 67.31 90)
+		(at 52.07 67.31 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "c683c6c6-3b61-4665-8546-cf70f4b0538f")
-		(property "Reference" "VMoteur1"
-			(at 59.69 66.0399 90)
+		(uuid "11675f4b-3876-49f9-bb94-d12a905bc2be")
+		(property "Reference" "Terre2"
+			(at 54.61 66.0399 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7712,7 +5812,7 @@
 			)
 		)
 		(property "Value" "PT_cms_1.0mm"
-			(at 59.69 72.39 0)
+			(at 54.61 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7722,7 +5822,7 @@
 			)
 		)
 		(property "Footprint" "Omidivers:Pt_trad_1.0mm"
-			(at 59.436 65.786 0)
+			(at 57.15 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7731,7 +5831,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 59.69 67.31 0)
+			(at 54.61 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7740,7 +5840,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 57.15 67.31 0)
+			(at 52.07 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7749,7 +5849,7 @@
 			)
 		)
 		(property "Fabriquant" ""
-			(at 59.69 67.31 0)
+			(at 54.61 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7758,7 +5858,7 @@
 			)
 		)
 		(property "Fabreference" ""
-			(at 59.69 67.31 0)
+			(at 54.61 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7767,7 +5867,7 @@
 			)
 		)
 		(property "Omicron" ""
-			(at 59.69 66.04 0)
+			(at 54.61 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7776,7 +5876,7 @@
 			)
 		)
 		(property "Distributeur1" ""
-			(at 59.69 67.31 0)
+			(at 54.61 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7785,7 +5885,7 @@
 			)
 		)
 		(property "Distributeur2" ""
-			(at 59.69 67.31 0)
+			(at 54.61 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7794,12 +5894,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "2ec0e047-a43a-4edc-9afc-276fb63e43df")
+			(uuid "b7ef6b23-9727-445c-95d1-074733f69c1e")
 		)
 		(instances
 			(project "carte switch 4 voies LI600"
 				(path "/293448fd-875c-455a-a74a-c679ba3631df"
-					(reference "VMoteur1")
+					(reference "Terre2")
 					(unit 1)
 				)
 			)
@@ -7807,239 +5907,15 @@
 	)
 	(symbol
 		(lib_id "Omidivers:PT_trad_1.0mm")
-		(at 101.6 80.01 90)
+		(at 76.2 137.16 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "cf05752d-8457-4c07-9125-d359b3c44ae0")
-		(property "Reference" "+5VLASER1"
-			(at 104.14 78.7399 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "PT_cms_1.0mm"
-			(at 104.14 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Omidivers:Pt_trad_1.0mm"
-			(at 103.886 78.486 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 104.14 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 101.6 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Fabriquant" ""
-			(at 104.14 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Fabreference" ""
-			(at 104.14 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Omicron" ""
-			(at 104.14 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Distributeur1" ""
-			(at 104.14 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Distributeur2" ""
-			(at 104.14 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "cc2a88ea-3da2-4dbc-af3c-ba86ca6cc983")
-		)
-		(instances
-			(project "carte switch 4 voies LI600"
-				(path "/293448fd-875c-455a-a74a-c679ba3631df"
-					(reference "+5VLASER1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Omidivers:PT_trad_1.0mm")
-		(at 71.12 137.16 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "d2f4dd28-21d4-478a-83eb-4a5d5b7056d8")
-		(property "Reference" "PT100Blanc1"
-			(at 78.74 138.43 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "PT_cms_1.0mm"
-			(at 73.66 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Omidivers:Pt_trad_1.0mm"
-			(at 73.406 135.636 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 73.66 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 71.12 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Fabriquant" ""
-			(at 73.66 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Fabreference" ""
-			(at 73.66 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Omicron" ""
-			(at 73.66 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Distributeur1" ""
-			(at 73.66 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Distributeur2" ""
-			(at 73.66 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d6c817bd-7a92-4914-901a-6fd6fa472a43")
-		)
-		(instances
-			(project "carte switch 4 voies LI600"
-				(path "/293448fd-875c-455a-a74a-c679ba3631df"
-					(reference "PT100Blanc1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Omidivers:PT_trad_1.0mm")
-		(at 78.74 132.08 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "d6ec8816-c4fc-4911-baa8-a504b50a45ff")
+		(uuid "2daa5b12-2457-48b3-b46f-d45608dc8121")
 		(property "Reference" "PT100Rouge1"
-			(at 86.868 133.604 90)
+			(at 84.328 138.684 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8047,7 +5923,7 @@
 			)
 		)
 		(property "Value" "PT_cms_1.0mm"
-			(at 81.28 137.16 0)
+			(at 78.74 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8057,7 +5933,7 @@
 			)
 		)
 		(property "Footprint" "Omidivers:Pt_trad_1.0mm"
-			(at 81.026 130.556 0)
+			(at 81.28 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8066,7 +5942,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 81.28 132.08 0)
+			(at 78.74 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8075,7 +5951,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 78.74 132.08 0)
+			(at 76.2 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8084,7 +5960,7 @@
 			)
 		)
 		(property "Fabriquant" ""
-			(at 81.28 132.08 0)
+			(at 78.74 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8093,7 +5969,7 @@
 			)
 		)
 		(property "Fabreference" ""
-			(at 81.28 132.08 0)
+			(at 78.74 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8102,7 +5978,7 @@
 			)
 		)
 		(property "Omicron" ""
-			(at 81.28 130.81 0)
+			(at 78.74 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8111,7 +5987,7 @@
 			)
 		)
 		(property "Distributeur1" ""
-			(at 81.28 132.08 0)
+			(at 78.74 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8120,7 +5996,7 @@
 			)
 		)
 		(property "Distributeur2" ""
-			(at 81.28 132.08 0)
+			(at 78.74 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8129,7 +6005,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "90d3560a-7f56-4211-9fae-0b783ce2ecb8")
+			(uuid "147a8e6a-3ab0-4c89-93f2-6be5ad1ed4e5")
 		)
 		(instances
 			(project "carte switch 4 voies LI600"
@@ -8142,16 +6018,16 @@
 	)
 	(symbol
 		(lib_id "Omidivers:PT_trad_1.0mm")
-		(at 62.23 77.47 90)
+		(at 88.9 74.93 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "d96f18f2-ed07-49a8-a47b-9a70cb38ab03")
-		(property "Reference" "VMoteur3"
-			(at 64.77 76.1999 90)
+		(uuid "3832a308-66be-4f7e-bc6f-baf56ae21bee")
+		(property "Reference" "IDC-1+IFC-1"
+			(at 91.44 73.6599 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8160,7 +6036,7 @@
 			)
 		)
 		(property "Value" "PT_cms_1.0mm"
-			(at 64.77 82.55 0)
+			(at 91.44 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8170,7 +6046,7 @@
 			)
 		)
 		(property "Footprint" "Omidivers:Pt_trad_1.0mm"
-			(at 64.516 75.946 0)
+			(at 93.98 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8179,7 +6055,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 64.77 77.47 0)
+			(at 91.44 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8188,7 +6064,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 62.23 77.47 0)
+			(at 88.9 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8197,7 +6073,7 @@
 			)
 		)
 		(property "Fabriquant" ""
-			(at 64.77 77.47 0)
+			(at 91.44 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8206,7 +6082,7 @@
 			)
 		)
 		(property "Fabreference" ""
-			(at 64.77 77.47 0)
+			(at 91.44 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8215,7 +6091,7 @@
 			)
 		)
 		(property "Omicron" ""
-			(at 64.77 76.2 0)
+			(at 91.44 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8224,7 +6100,7 @@
 			)
 		)
 		(property "Distributeur1" ""
-			(at 64.77 77.47 0)
+			(at 91.44 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8233,7 +6109,7 @@
 			)
 		)
 		(property "Distributeur2" ""
-			(at 64.77 77.47 0)
+			(at 91.44 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8242,7 +6118,909 @@
 			)
 		)
 		(pin "1"
-			(uuid "4bed4b17-e333-486a-949b-a736914db259")
+			(uuid "9a5a93ca-b23b-4f31-a32d-908dd1c2ced5")
+		)
+		(instances
+			(project "carte switch 4 voies LI600"
+				(path "/293448fd-875c-455a-a74a-c679ba3631df"
+					(reference "IDC-1+IFC-1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Omidivers:PT_trad_1.0mm")
+		(at 92.71 105.41 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4888d81d-dbfb-4e94-a4c9-5ca741e4c4d6")
+		(property "Reference" "+5VREGLE1"
+			(at 99.314 104.902 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PT_cms_1.0mm"
+			(at 90.17 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Omidivers:Pt_trad_1.0mm"
+			(at 87.63 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 90.17 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 92.71 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Fabriquant" ""
+			(at 90.17 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Fabreference" ""
+			(at 90.17 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Omicron" ""
+			(at 90.17 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributeur1" ""
+			(at 90.17 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributeur2" ""
+			(at 90.17 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b54678e2-85c5-4f21-958e-2a4a6da00e81")
+		)
+		(instances
+			(project "carte switch 4 voies LI600"
+				(path "/293448fd-875c-455a-a74a-c679ba3631df"
+					(reference "+5VREGLE1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Omiconnecteur:sub_D_25")
+		(at 60.96 90.17 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4e902882-5891-4573-90ae-e8876f3b4a79")
+		(property "Reference" "J29"
+			(at 65.532 93.98 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "sub_D_25"
+			(at 57.3339 92.71 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Omiconnecteur:sub_D_25"
+			(at 53.34 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://b2b.harting.com/files/download/PRD/PDF_DS/PDF_DS_09653227801_EN.pdf"
+			(at 55.88 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "D-Sub 25pin male angled 2.54mm pitch, stamped, w/o board locks, M3, PL3"
+			(at 58.42 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Height" "12.5"
+			(at 60.96 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "HARTING"
+			(at 63.5 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "09653227801"
+			(at 66.04 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "617-09653227801"
+			(at 68.58 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/HARTING/09653227801?qs=Z2e%252BHPEhmSYpOM7BaVuC5A%3D%3D"
+			(at 71.12 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" "09653227801"
+			(at 73.66 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/09653227801/harting?region=nac"
+			(at 76.2 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "869c9760-f3d3-467f-96ec-6cee3f27d1d9")
+		)
+		(pin "10"
+			(uuid "afdbb5c8-5b6e-4754-a543-a4dc4dd517a3")
+		)
+		(pin "11"
+			(uuid "1582335e-9191-44a7-bbb9-f8dea1e99f16")
+		)
+		(pin "12"
+			(uuid "844ed3f7-de47-425a-aafc-0cb7581e8664")
+		)
+		(pin "13"
+			(uuid "4e48a4e0-b553-44ef-884f-7274d43c3dfb")
+		)
+		(pin "14"
+			(uuid "f5f6c2f8-b2be-4430-adf9-e20d6a24da84")
+		)
+		(pin "15"
+			(uuid "ca951fcb-522c-4689-a8f4-5fe144011c9b")
+		)
+		(pin "16"
+			(uuid "244e5de7-e5cd-4352-b23f-88aa3fa99b81")
+		)
+		(pin "17"
+			(uuid "9d1bd852-3b12-4a0c-a106-dc108283eda7")
+		)
+		(pin "18"
+			(uuid "106bd387-e051-4f58-a6be-fc0315efe028")
+		)
+		(pin "19"
+			(uuid "453aa3ea-3df4-47e8-a67b-415770f89fe5")
+		)
+		(pin "2"
+			(uuid "059f35a8-b702-4270-a356-56b9d24583d9")
+		)
+		(pin "20"
+			(uuid "c9f211e3-01b0-4974-b810-3af7bd488e25")
+		)
+		(pin "21"
+			(uuid "fdca28f7-5592-455d-bad8-71079c662f53")
+		)
+		(pin "22"
+			(uuid "7421f267-6291-401a-b08b-04c275cdd662")
+		)
+		(pin "23"
+			(uuid "d56681bf-d383-480e-8e97-d257955bf6be")
+		)
+		(pin "24"
+			(uuid "50f3b6d9-e531-4fd7-93ca-c7afbc9de55d")
+		)
+		(pin "25"
+			(uuid "4a24ce4f-a4e1-4b6f-b65d-f32664bb0a6a")
+		)
+		(pin "3"
+			(uuid "ca5953e5-daa1-475e-9e9a-ed4daf21049d")
+		)
+		(pin "4"
+			(uuid "971480f1-b66e-4a7f-ab77-486c583344d8")
+		)
+		(pin "5"
+			(uuid "b964edd0-04c3-4d7f-9db8-29957e1dfe15")
+		)
+		(pin "6"
+			(uuid "effc4bfd-8eb2-43d1-a194-67fe9f7dad02")
+		)
+		(pin "7"
+			(uuid "1a98213f-bed2-48a9-98c9-5bdce4d22dd5")
+		)
+		(pin "8"
+			(uuid "82e8a042-ca52-4f54-b02f-bd16843757d6")
+		)
+		(pin "9"
+			(uuid "7bc7b1a0-698b-4f02-bfb1-d708714a4ac4")
+		)
+		(pin "MH1"
+			(uuid "7b183f89-491d-4206-a8d2-c4673f0c07f9")
+		)
+		(pin "MH2"
+			(uuid "497c5b74-71d1-4014-80c5-3d202e71338e")
+		)
+		(instances
+			(project "carte switch 4 voies LI600"
+				(path "/293448fd-875c-455a-a74a-c679ba3631df"
+					(reference "J29")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Omiconnecteur:Conn_01x05_P2.54mm_pinheader_vertical")
+		(at 180.34 153.67 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5744951c-621d-4893-aedb-7dbc6427af04")
+		(property "Reference" "J1"
+			(at 182.88 151.1299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x05_P2.54mm_pinheader_vertical"
+			(at 181.61 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Omiconnecteur:PinHeader_1x05_P2.54mm_V_omi"
+			(at 181.61 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn.amphenol-cs.com/media/wysiwyg/files/documentation/datasheet/boardwiretoboard/bwb_bergstik.pdf"
+			(at 181.61 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 180.34 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Fabriquant" "Amphenol"
+			(at 180.34 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Fabreference" "77311-102-36LF"
+			(at 180.34 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Omicron" "9069605"
+			(at 179.07 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributeur1" "DK:609-6203-ND"
+			(at 180.34 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributeur2" "M:77311-102-36LF"
+			(at 180.34 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8e91d6b9-a15c-40aa-b779-dd8e98045a4d")
+		)
+		(pin "2"
+			(uuid "4d14b51b-3b8b-46d7-8a78-408d16a29451")
+		)
+		(pin "3"
+			(uuid "4e3b56c2-e76d-45fc-b878-47834eb8479c")
+		)
+		(pin "4"
+			(uuid "e28efa31-94c6-4159-886f-700598099ae7")
+		)
+		(pin "5"
+			(uuid "886fe54b-427a-4a29-b680-d9b854d49c1c")
+		)
+		(instances
+			(project ""
+				(path "/293448fd-875c-455a-a74a-c679ba3631df"
+					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Omidivers:PT_trad_1.0mm")
+		(at 68.58 142.24 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "59731cd2-8f18-4b59-bc22-739bcbebf9e3")
+		(property "Reference" "PT100Blanc1"
+			(at 76.2 143.51 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PT_cms_1.0mm"
+			(at 71.12 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Omidivers:Pt_trad_1.0mm"
+			(at 73.66 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 71.12 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 68.58 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Fabriquant" ""
+			(at 71.12 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Fabreference" ""
+			(at 71.12 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Omicron" ""
+			(at 71.12 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributeur1" ""
+			(at 71.12 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributeur2" ""
+			(at 71.12 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8ea847bb-f9a4-426d-bc50-3f2085d39400")
+		)
+		(instances
+			(project "carte switch 4 voies LI600"
+				(path "/293448fd-875c-455a-a74a-c679ba3631df"
+					(reference "PT100Blanc1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Omidivers:PT_trad_1.0mm")
+		(at 99.06 125.73 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5db17cd3-097f-4098-98e9-db17ae81d3a9")
+		(property "Reference" "A+REGLE1"
+			(at 104.902 124.968 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PT_cms_1.0mm"
+			(at 96.52 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Omidivers:Pt_trad_1.0mm"
+			(at 93.98 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 96.52 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 99.06 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Fabriquant" ""
+			(at 96.52 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Fabreference" ""
+			(at 96.52 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Omicron" ""
+			(at 96.52 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributeur1" ""
+			(at 96.52 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributeur2" ""
+			(at 96.52 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0953934f-b69e-42e7-b130-b65f93a265d2")
+		)
+		(instances
+			(project "carte switch 4 voies LI600"
+				(path "/293448fd-875c-455a-a74a-c679ba3631df"
+					(reference "A+REGLE1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Omidivers:PT_trad_1.0mm")
+		(at 54.61 72.39 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "634e1b99-959c-4c26-9aef-a719a3b69bfd")
+		(property "Reference" "VMoteur1"
+			(at 57.15 71.1199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "PT_cms_1.0mm"
+			(at 57.15 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Omidivers:Pt_trad_1.0mm"
+			(at 59.69 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 57.15 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 54.61 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Fabriquant" ""
+			(at 57.15 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Fabreference" ""
+			(at 57.15 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Omicron" ""
+			(at 57.15 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributeur1" ""
+			(at 57.15 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributeur2" ""
+			(at 57.15 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "11b9c1d5-0a87-4eb1-8c80-68692c1fa817")
+		)
+		(instances
+			(project "carte switch 4 voies LI600"
+				(path "/293448fd-875c-455a-a74a-c679ba3631df"
+					(reference "VMoteur1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Omidivers:PT_trad_1.0mm")
+		(at 59.69 82.55 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6453c996-120b-425e-ab8b-4fe523f91d34")
+		(property "Reference" "VMoteur3"
+			(at 62.23 81.2799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "PT_cms_1.0mm"
+			(at 62.23 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Omidivers:Pt_trad_1.0mm"
+			(at 64.77 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 62.23 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 59.69 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Fabriquant" ""
+			(at 62.23 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Fabreference" ""
+			(at 62.23 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Omicron" ""
+			(at 62.23 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributeur1" ""
+			(at 62.23 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributeur2" ""
+			(at 62.23 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0736fd1d-7ae6-4bb6-820d-d34582254d88")
 		)
 		(instances
 			(project "carte switch 4 voies LI600"
@@ -8255,23 +7033,24 @@
 	)
 	(symbol
 		(lib_id "Omidivers:PT_trad_1.0mm")
-		(at 95.25 100.33 270)
+		(at 39.37 92.71 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "e35a8243-0b8d-427c-86fb-8de1473f0fea")
-		(property "Reference" "+5VREGLE1"
-			(at 101.854 99.822 90)
+		(uuid "67429cf4-2d3f-4f89-b2f3-defd24c63a77")
+		(property "Reference" "GNDMoteur2"
+			(at 34.544 95.25 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Value" "PT_cms_1.0mm"
-			(at 92.71 95.25 0)
+			(at 44.45 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8281,7 +7060,7 @@
 			)
 		)
 		(property "Footprint" "Omidivers:Pt_trad_1.0mm"
-			(at 92.964 101.854 0)
+			(at 38.1 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8290,7 +7069,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 92.71 100.33 0)
+			(at 39.37 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8299,7 +7078,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 95.25 100.33 0)
+			(at 39.37 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8308,7 +7087,7 @@
 			)
 		)
 		(property "Fabriquant" ""
-			(at 92.71 100.33 0)
+			(at 39.37 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8317,7 +7096,7 @@
 			)
 		)
 		(property "Fabreference" ""
-			(at 92.71 100.33 0)
+			(at 39.37 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8326,7 +7105,7 @@
 			)
 		)
 		(property "Omicron" ""
-			(at 92.71 101.6 0)
+			(at 38.1 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8335,7 +7114,7 @@
 			)
 		)
 		(property "Distributeur1" ""
-			(at 92.71 100.33 0)
+			(at 39.37 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8344,7 +7123,7 @@
 			)
 		)
 		(property "Distributeur2" ""
-			(at 92.71 100.33 0)
+			(at 39.37 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8353,12 +7132,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "2e62f32f-1afc-4353-8b82-8505540805e8")
+			(uuid "23afe677-9adf-41ce-b079-8787a1e4a862")
 		)
 		(instances
 			(project "carte switch 4 voies LI600"
 				(path "/293448fd-875c-455a-a74a-c679ba3631df"
-					(reference "+5VREGLE1")
+					(reference "GNDMoteur2")
 					(unit 1)
 				)
 			)
@@ -8366,15 +7145,15 @@
 	)
 	(symbol
 		(lib_id "Omidivers:PT_trad_1.0mm")
-		(at 74.93 134.62 90)
+		(at 80.01 134.62 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "e63def51-d770-4703-aadc-067bd3c3cd33")
-		(property "Reference" "PT100Blanc2"
-			(at 82.296 136.144 90)
+		(uuid "68aa928b-432a-4799-bb30-b7374f419466")
+		(property "Reference" "PT100Rouge2"
+			(at 87.122 135.89 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8382,7 +7161,7 @@
 			)
 		)
 		(property "Value" "PT_cms_1.0mm"
-			(at 77.47 139.7 0)
+			(at 82.55 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8392,7 +7171,7 @@
 			)
 		)
 		(property "Footprint" "Omidivers:Pt_trad_1.0mm"
-			(at 77.216 133.096 0)
+			(at 85.09 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8401,7 +7180,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 77.47 134.62 0)
+			(at 82.55 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8410,7 +7189,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 74.93 134.62 0)
+			(at 80.01 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8419,7 +7198,7 @@
 			)
 		)
 		(property "Fabriquant" ""
-			(at 77.47 134.62 0)
+			(at 82.55 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8428,7 +7207,7 @@
 			)
 		)
 		(property "Fabreference" ""
-			(at 77.47 134.62 0)
+			(at 82.55 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8437,7 +7216,7 @@
 			)
 		)
 		(property "Omicron" ""
-			(at 77.47 133.35 0)
+			(at 82.55 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8446,7 +7225,7 @@
 			)
 		)
 		(property "Distributeur1" ""
-			(at 77.47 134.62 0)
+			(at 82.55 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8455,7 +7234,7 @@
 			)
 		)
 		(property "Distributeur2" ""
-			(at 77.47 134.62 0)
+			(at 82.55 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8464,7 +7243,610 @@
 			)
 		)
 		(pin "1"
-			(uuid "a96c4622-bee4-4202-89ee-f19739c951bb")
+			(uuid "22fd6a3c-f564-4eb7-af39-2fe289e4332b")
+		)
+		(instances
+			(project "carte switch 4 voies LI600"
+				(path "/293448fd-875c-455a-a74a-c679ba3631df"
+					(reference "PT100Rouge2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Omidivers:PT_trad_1.0mm")
+		(at 78.74 64.77 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "708908be-830e-483e-82e5-774d4d944a2f")
+		(property "Reference" "IDC-2"
+			(at 81.534 63.246 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "PT_cms_1.0mm"
+			(at 81.28 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Omidivers:Pt_trad_1.0mm"
+			(at 83.82 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 81.28 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 78.74 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Fabriquant" ""
+			(at 81.28 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Fabreference" ""
+			(at 81.28 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Omicron" ""
+			(at 81.28 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributeur1" ""
+			(at 81.28 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributeur2" ""
+			(at 81.28 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "724e5908-8581-4138-ba82-c73f78085a19")
+		)
+		(instances
+			(project "carte switch 4 voies LI600"
+				(path "/293448fd-875c-455a-a74a-c679ba3631df"
+					(reference "IDC-2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Omiconnecteur:Conn_02x25_Odd_Even_omi")
+		(at 135.89 123.19 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9b55da59-5220-41a7-b630-8a6bfc535c99")
+		(property "Reference" "J3"
+			(at 137.16 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_02x25_Odd_Even_omi"
+			(at 137.16 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Omiconnecteur:PinHeader_2x25_P2.54mm_V_omi_1"
+			(at 137.16 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 135.89 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, double row, 02x10, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 135.89 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Documentation" "https://cdn.amphenol-cs.com/media/wysiwyg/files/documentation/datasheet/boardwiretoboard/bwb_bergstik.pdf"
+			(at 134.62 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Fabriquant" "Amphenol"
+			(at 135.89 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Fabreference" "77313-118-72LF"
+			(at 137.16 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Omicron" "252175"
+			(at 135.89 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributeur1" "F:2886108"
+			(at 137.16 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributeur2" "M:649-77313-118-72LF"
+			(at 137.16 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "6"
+			(uuid "fd18639f-eb5f-4b13-aa48-174851bbdbce")
+		)
+		(pin "50"
+			(uuid "9dd3d22d-7fb7-4339-a5e4-6a157042c15e")
+		)
+		(pin "9"
+			(uuid "40462406-0434-48de-8a73-1fa5e4a80af9")
+		)
+		(pin "7"
+			(uuid "65a73b1f-123d-4795-833d-a7ce0252c560")
+		)
+		(pin "8"
+			(uuid "5dcfed17-4d71-4a29-b513-1a22f42f0b61")
+		)
+		(pin "5"
+			(uuid "7bf86171-49c2-4444-8d7d-b068314a7caf")
+		)
+		(pin "10"
+			(uuid "55a0faa0-c325-4dcf-b251-527785f8fb53")
+		)
+		(pin "15"
+			(uuid "b318d0e9-b0ce-44ae-8d66-2796ffc83825")
+		)
+		(pin "2"
+			(uuid "09b2d4af-609a-4376-bfb2-1196117520a3")
+		)
+		(pin "35"
+			(uuid "422078a6-f574-4fb5-9a43-d4e407e0bde5")
+		)
+		(pin "21"
+			(uuid "32ed8140-b9bf-4514-af8f-3f5ba4e71a58")
+		)
+		(pin "36"
+			(uuid "838cf45f-457d-415d-950d-e5d14272e16b")
+		)
+		(pin "37"
+			(uuid "1b9f41ad-7d33-432c-9ce4-bf4aa529eba2")
+		)
+		(pin "4"
+			(uuid "1931ed77-0a30-45cf-a698-e187fc96b7a0")
+		)
+		(pin "22"
+			(uuid "2310dc2d-50eb-42a4-a863-4a048ffc7b1b")
+		)
+		(pin "39"
+			(uuid "5638960d-8399-4578-9ff2-dd3f63fa3cf6")
+		)
+		(pin "34"
+			(uuid "13863218-7b83-40ba-9b4d-1695819fbe3c")
+		)
+		(pin "1"
+			(uuid "19cd7576-9b48-4726-a049-7e4c260f2b54")
+		)
+		(pin "43"
+			(uuid "ea0d7b02-6e7c-4a13-909f-c59b32c78c9d")
+		)
+		(pin "45"
+			(uuid "0e1bcad1-c3ef-4390-b1a8-e4c9ccf2fde8")
+		)
+		(pin "23"
+			(uuid "c889583e-e64f-4830-9dd5-cdec65dc70a3")
+		)
+		(pin "14"
+			(uuid "eaa9c470-51ae-467a-a07c-6367eb563b2b")
+		)
+		(pin "25"
+			(uuid "b0576811-ea7e-499a-b2c8-f3aabd00174f")
+		)
+		(pin "29"
+			(uuid "4968ea4c-17cd-45fe-a2bc-5f834b4060cd")
+		)
+		(pin "33"
+			(uuid "0c462af3-8cf3-4e82-abcd-11203c2a512d")
+		)
+		(pin "27"
+			(uuid "b07abad6-b812-4c1e-b566-d002d695f0f1")
+		)
+		(pin "18"
+			(uuid "44b3dd51-e08f-4efc-8443-e41dc89fff86")
+		)
+		(pin "19"
+			(uuid "e2281cbe-cb31-453e-8802-968077bd3777")
+		)
+		(pin "32"
+			(uuid "260b71c0-43c9-4096-957d-ad34fd15ae4d")
+		)
+		(pin "3"
+			(uuid "94fdec40-2f3d-4529-b05d-77fa59a277ab")
+		)
+		(pin "30"
+			(uuid "2fd49074-fb42-4317-ad5a-6122cf264d14")
+		)
+		(pin "49"
+			(uuid "d342e098-7191-4f91-a978-04e15d95d4d4")
+		)
+		(pin "28"
+			(uuid "e1591328-c8ea-48aa-b063-e20bafc83fbd")
+		)
+		(pin "20"
+			(uuid "2a4ef58b-4e90-4791-9bec-82df4b47ab9a")
+		)
+		(pin "13"
+			(uuid "78edf44f-3685-4fe0-9fd4-4c5b79c722dd")
+		)
+		(pin "16"
+			(uuid "d8bda3bd-988e-456d-9736-b463405522f7")
+		)
+		(pin "24"
+			(uuid "d4b02ae6-1821-4cc5-96df-f805f19a76a7")
+		)
+		(pin "40"
+			(uuid "64eed50e-404c-49d3-aa66-ebf3a1c0c30b")
+		)
+		(pin "41"
+			(uuid "5cc11ba5-776c-4e1a-9e7e-b0243ae5350c")
+		)
+		(pin "42"
+			(uuid "3afe0351-5196-4956-b6e2-f582f2115590")
+		)
+		(pin "31"
+			(uuid "55afa3ed-4a8e-404c-8b2d-8c4cc3c86699")
+		)
+		(pin "44"
+			(uuid "15220a89-a6b7-4887-bd36-24e5d6938633")
+		)
+		(pin "38"
+			(uuid "4c4ad260-e0f6-43b6-8d41-b88e36082ef6")
+		)
+		(pin "46"
+			(uuid "e8d97c43-0fd8-4a5e-b427-422bfb9f6867")
+		)
+		(pin "47"
+			(uuid "e2bb7fcb-f243-45a4-ba92-b58f16e259b5")
+		)
+		(pin "26"
+			(uuid "276001d9-a05b-46eb-9469-8e06d5d8c4fb")
+		)
+		(pin "48"
+			(uuid "be7d764a-6b8c-4217-9749-ef36d3766688")
+		)
+		(pin "17"
+			(uuid "9a1eecef-f5ad-424c-afdf-ed7d0012afb1")
+		)
+		(pin "12"
+			(uuid "26ab9c6b-3f8d-493d-aa88-f87a6d30f3eb")
+		)
+		(pin "11"
+			(uuid "43d841e3-b7c1-410b-9860-43d0052788be")
+		)
+		(instances
+			(project ""
+				(path "/293448fd-875c-455a-a74a-c679ba3631df"
+					(reference "J3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Omidivers:PT_trad_1.0mm")
+		(at 57.15 77.47 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a968f786-afef-49a1-bace-dc180c9998d5")
+		(property "Reference" "VMoteur2"
+			(at 59.69 76.1999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "PT_cms_1.0mm"
+			(at 59.69 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Omidivers:Pt_trad_1.0mm"
+			(at 62.23 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 59.69 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 57.15 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Fabriquant" ""
+			(at 59.69 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Fabreference" ""
+			(at 59.69 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Omicron" ""
+			(at 59.69 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributeur1" ""
+			(at 59.69 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributeur2" ""
+			(at 59.69 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a755ca44-52d5-4a66-8d7f-38dbe23af46c")
+		)
+		(instances
+			(project "carte switch 4 voies LI600"
+				(path "/293448fd-875c-455a-a74a-c679ba3631df"
+					(reference "VMoteur2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Omidivers:PT_trad_1.0mm")
+		(at 72.39 139.7 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b14800d0-421c-433e-b4eb-3eeb6deeb91d")
+		(property "Reference" "PT100Blanc2"
+			(at 79.756 141.224 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PT_cms_1.0mm"
+			(at 74.93 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Omidivers:Pt_trad_1.0mm"
+			(at 77.47 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 74.93 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 72.39 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Fabriquant" ""
+			(at 74.93 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Fabreference" ""
+			(at 74.93 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Omicron" ""
+			(at 74.93 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributeur1" ""
+			(at 74.93 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributeur2" ""
+			(at 74.93 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7b59aa74-83a2-4478-a662-d15f5c4bc331")
 		)
 		(instances
 			(project "carte switch 4 voies LI600"
@@ -8477,23 +7859,25 @@
 	)
 	(symbol
 		(lib_id "Omidivers:PT_trad_1.0mm")
-		(at 101.6 120.65 270)
+		(at 93.98 80.01 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "ee76504c-d892-4d95-8e14-5c4a9986e73e")
-		(property "Reference" "A+REGLE1"
-			(at 107.442 119.888 90)
+		(fields_autoplaced yes)
+		(uuid "bc96ab86-e072-437f-8d7b-ea5d637e791e")
+		(property "Reference" "GNDLASER1"
+			(at 96.52 78.7399 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Value" "PT_cms_1.0mm"
-			(at 99.06 115.57 0)
+			(at 96.52 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8503,7 +7887,7 @@
 			)
 		)
 		(property "Footprint" "Omidivers:Pt_trad_1.0mm"
-			(at 99.314 122.174 0)
+			(at 99.06 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8512,7 +7896,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 99.06 120.65 0)
+			(at 96.52 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8521,7 +7905,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 101.6 120.65 0)
+			(at 93.98 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8530,7 +7914,7 @@
 			)
 		)
 		(property "Fabriquant" ""
-			(at 99.06 120.65 0)
+			(at 96.52 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8539,7 +7923,7 @@
 			)
 		)
 		(property "Fabreference" ""
-			(at 99.06 120.65 0)
+			(at 96.52 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8548,7 +7932,7 @@
 			)
 		)
 		(property "Omicron" ""
-			(at 99.06 121.92 0)
+			(at 96.52 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8557,7 +7941,7 @@
 			)
 		)
 		(property "Distributeur1" ""
-			(at 99.06 120.65 0)
+			(at 96.52 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8566,7 +7950,7 @@
 			)
 		)
 		(property "Distributeur2" ""
-			(at 99.06 120.65 0)
+			(at 96.52 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8575,67 +7959,159 @@
 			)
 		)
 		(pin "1"
-			(uuid "ca871180-4754-4b31-b45f-5206419c4bfa")
+			(uuid "9a1012a3-61de-45e0-9286-022ec709561f")
 		)
 		(instances
 			(project "carte switch 4 voies LI600"
 				(path "/293448fd-875c-455a-a74a-c679ba3631df"
-					(reference "A+REGLE1")
+					(reference "GNDLASER1")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Omiconnecteur:sub_D_25")
-		(at 63.5 85.09 270)
+		(lib_id "Omidivers:PT_trad_1.0mm")
+		(at 95.25 110.49 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "bddf2239-941a-4660-bf39-0d60f8ad8598")
+		(property "Reference" "GNDREGLE1"
+			(at 101.346 109.982 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PT_cms_1.0mm"
+			(at 92.71 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Omidivers:Pt_trad_1.0mm"
+			(at 90.17 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 92.71 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 95.25 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Fabriquant" ""
+			(at 92.71 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Fabreference" ""
+			(at 92.71 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Omicron" ""
+			(at 92.71 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributeur1" ""
+			(at 92.71 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributeur2" ""
+			(at 92.71 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d385bc7b-125e-4887-8429-8e43eb7adfe7")
+		)
+		(instances
+			(project "carte switch 4 voies LI600"
+				(path "/293448fd-875c-455a-a74a-c679ba3631df"
+					(reference "GNDREGLE1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Omidivers:PT_trad_1.0mm")
+		(at 99.06 85.09 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "f523a047-ed85-4a99-b90f-63014e50c3f6")
-		(property "Reference" "J1"
-			(at 66.5165 86.36 90)
+		(uuid "beb01a95-5fca-4e58-9926-96a21172d971")
+		(property "Reference" "+5VLASER1"
+			(at 101.6 83.8199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "PT_cms_1.0mm"
+			(at 101.6 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-			)
-		)
-		(property "Value" "sub_D_25"
-			(at 66.5165 88.9 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Omiconnecteur:sub_D_25"
-			(at -26.34 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://docs.rs-online.com/61e0/0900766b815846f2.pdf"
-			(at -126.34 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "25way rightangle ground socket connector"
-			(at 39.624 103.378 0)
+		(property "Footprint" "Omidivers:Pt_trad_1.0mm"
+			(at 104.14 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8643,161 +8119,638 @@
 				(hide yes)
 			)
 		)
-		(property "Height" "12.93"
-			(at -326.34 127 0)
+		(property "Datasheet" ""
+			(at 101.6 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left top)
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Name" "RS Pro"
-			(at -426.34 127 0)
+		(property "Description" ""
+			(at 99.06 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left top)
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "5443991"
-			(at -526.34 127 0)
+		(property "Fabriquant" ""
+			(at 101.6 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left top)
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" ""
-			(at -626.34 127 0)
+		(property "Fabreference" ""
+			(at 101.6 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left top)
 				(hide yes)
 			)
 		)
-		(property "Mouser Price/Stock" ""
-			(at -726.34 127 0)
+		(property "Omicron" ""
+			(at 101.6 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left top)
 				(hide yes)
 			)
 		)
-		(property "Arrow Part Number" ""
-			(at -826.34 127 0)
+		(property "Distributeur1" ""
+			(at 101.6 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left top)
 				(hide yes)
 			)
 		)
-		(property "Arrow Price/Stock" ""
-			(at -926.34 127 0)
+		(property "Distributeur2" ""
+			(at 101.6 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left top)
 				(hide yes)
 			)
-		)
-		(pin "19"
-			(uuid "2f704ec5-c4af-4dbb-a3b7-93cb1fa3d1e2")
-		)
-		(pin "7"
-			(uuid "0a582d8d-5fe0-4724-8e91-b821aa64a427")
-		)
-		(pin "8"
-			(uuid "cba20b53-9b7b-4399-8071-cf893d927835")
-		)
-		(pin "17"
-			(uuid "dba23270-31a4-46fd-a9b0-4ea679d67c9a")
-		)
-		(pin "13"
-			(uuid "9af5e81c-9240-4500-9306-3b2d84d62aaa")
-		)
-		(pin "18"
-			(uuid "54abe3d6-9682-408f-b19b-00814fd2cc18")
 		)
 		(pin "1"
-			(uuid "1eff28db-0ba4-4b99-a425-096f3670fd0e")
-		)
-		(pin "26"
-			(uuid "abcdc3e3-32bf-4b46-9e14-0f0d42c26ba7")
-		)
-		(pin "23"
-			(uuid "eb0e435e-d156-4926-9ca4-ad6e5be5b114")
-		)
-		(pin "9"
-			(uuid "de3e75b0-f1c8-41b1-ad93-317933f528ba")
-		)
-		(pin "5"
-			(uuid "89d2978d-6cb4-4c8c-bd66-7351becc0f8d")
-		)
-		(pin "2"
-			(uuid "73e7b408-5bb9-45b5-85ce-b2bc9fbb831e")
-		)
-		(pin "24"
-			(uuid "7ad36797-7112-4d6a-a0d5-ff59d59b9d69")
-		)
-		(pin "11"
-			(uuid "4d19c334-1433-46af-827e-f89cb62d9b86")
-		)
-		(pin "14"
-			(uuid "bee4ad63-d697-4a64-91f0-6e0e2e43ee39")
-		)
-		(pin "10"
-			(uuid "73005d8c-9530-4b03-9fa5-402cc8642191")
-		)
-		(pin "16"
-			(uuid "d0eb4801-da6c-4c28-9ae2-a570296993cf")
-		)
-		(pin "15"
-			(uuid "29b89241-a6f8-45d2-b7a1-a6a96551f9f3")
-		)
-		(pin "20"
-			(uuid "e036caab-e6cc-4396-a9e9-08f098bdebaf")
-		)
-		(pin "21"
-			(uuid "e3063b5f-4198-4ca3-a8c7-a84dac761e24")
-		)
-		(pin "22"
-			(uuid "1eed19c9-b2e0-4d21-9b81-ae59fcd5c698")
-		)
-		(pin "12"
-			(uuid "cbaea18c-3f70-425c-b1ed-a511f3febfa3")
-		)
-		(pin "25"
-			(uuid "da1e8a18-6a8c-4f40-bd10-d96d9ec6d5e9")
-		)
-		(pin "27"
-			(uuid "e087b1fe-5b8b-4c66-beea-b7deb4bdabf1")
-		)
-		(pin "3"
-			(uuid "ae6533bb-5bb6-4a70-a8a4-0e72c5cb7576")
-		)
-		(pin "4"
-			(uuid "b2d6a32a-ae7c-496b-8470-1b103fc2cc1e")
-		)
-		(pin "6"
-			(uuid "99eac594-98e8-48d9-ac81-dee14c71a6f0")
+			(uuid "317d153d-139d-4c8c-8309-95c66c842f30")
 		)
 		(instances
-			(project ""
+			(project "carte switch 4 voies LI600"
 				(path "/293448fd-875c-455a-a74a-c679ba3631df"
-					(reference "J1")
+					(reference "+5VLASER1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Omidivers:PT_trad_1.0mm")
+		(at 109.22 95.25 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c416cf7d-3cfe-4178-b5d4-41ced5fd12e8")
+		(property "Reference" "SwitchOptique2"
+			(at 111.76 93.9799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "PT_cms_1.0mm"
+			(at 111.76 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Omidivers:Pt_trad_1.0mm"
+			(at 114.3 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 111.76 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 109.22 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Fabriquant" ""
+			(at 111.76 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Fabreference" ""
+			(at 111.76 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Omicron" ""
+			(at 111.76 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributeur1" ""
+			(at 111.76 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributeur2" ""
+			(at 111.76 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4e4c012a-f0d7-4ae9-8f9a-6629078a2599")
+		)
+		(instances
+			(project "carte switch 4 voies LI600"
+				(path "/293448fd-875c-455a-a74a-c679ba3631df"
+					(reference "SwitchOptique2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Omidivers:PT_trad_1.0mm")
+		(at 38.1 101.6 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c91247f2-261a-48ec-9ba2-abc3343840b1")
+		(property "Reference" "GNDMoteur1"
+			(at 34.036 109.982 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "PT_cms_1.0mm"
+			(at 43.18 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Omidivers:Pt_trad_1.0mm"
+			(at 36.83 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 38.1 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 38.1 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Fabriquant" ""
+			(at 38.1 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Fabreference" ""
+			(at 38.1 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Omicron" ""
+			(at 36.83 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributeur1" ""
+			(at 38.1 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributeur2" ""
+			(at 38.1 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "654026f0-191b-4a8b-97a5-9a3ad563d7c1")
+		)
+		(instances
+			(project "carte switch 4 voies LI600"
+				(path "/293448fd-875c-455a-a74a-c679ba3631df"
+					(reference "GNDMoteur1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Omidivers:PT_trad_1.0mm")
+		(at 49.53 62.23 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cb37abd1-9968-48fb-8ffc-987c29e8024d")
+		(property "Reference" "Terre1"
+			(at 52.07 60.9599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Pt_trad_1.0mm"
+			(at 52.07 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Omidivers:Pt_trad_1.0mm"
+			(at 54.61 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 52.07 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 49.53 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Fabriquant" ""
+			(at 52.07 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Fabreference" ""
+			(at 52.07 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Omicron" ""
+			(at 52.07 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributeur1" ""
+			(at 52.07 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributeur2" ""
+			(at 52.07 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a398c803-17e2-4ada-b787-7043d95d14fb")
+		)
+		(instances
+			(project "carte switch 4 voies LI600"
+				(path "/293448fd-875c-455a-a74a-c679ba3631df"
+					(reference "Terre1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Omidivers:PT_trad_1.0mm")
+		(at 83.7359 69.85 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d6579c6c-1432-4bc9-a82d-eefa98dabdf6")
+		(property "Reference" "IFC-2"
+			(at 86.36 68.5799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "PT_cms_1.0mm"
+			(at 86.2759 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Omidivers:Pt_trad_1.0mm"
+			(at 88.8159 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 86.2759 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 83.7359 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Fabriquant" ""
+			(at 86.2759 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Fabreference" ""
+			(at 86.2759 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Omicron" ""
+			(at 86.2759 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributeur1" ""
+			(at 86.2759 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributeur2" ""
+			(at 86.2759 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fd663769-168a-4959-95fc-fe64dd8c50bb")
+		)
+		(instances
+			(project "carte switch 4 voies LI600"
+				(path "/293448fd-875c-455a-a74a-c679ba3631df"
+					(reference "IFC-2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Omidivers:PT_trad_1.0mm")
+		(at 97.79 120.65 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "fc952275-966d-4662-80d7-c0c4141d29b7")
+		(property "Reference" "B+REGLE1"
+			(at 104.14 120.142 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PT_cms_1.0mm"
+			(at 95.25 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Omidivers:Pt_trad_1.0mm"
+			(at 92.71 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 95.25 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 97.79 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Fabriquant" ""
+			(at 95.25 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Fabreference" ""
+			(at 95.25 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Omicron" ""
+			(at 95.25 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributeur1" ""
+			(at 95.25 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributeur2" ""
+			(at 95.25 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "26fc8cbb-9387-4252-a612-1a2d799faf00")
+		)
+		(instances
+			(project "carte switch 4 voies LI600"
+				(path "/293448fd-875c-455a-a74a-c679ba3631df"
+					(reference "B+REGLE1")
 					(unit 1)
 				)
 			)
